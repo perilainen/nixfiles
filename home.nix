@@ -11,17 +11,24 @@
     packages = with pkgs; [
       # bat
       exa
+      docker
       fasd
       fd
       ffmpeg
       fzf
+      gitui
+      go
       # git
-      # lazygit
+      lazygit
+      k9s
+      kubeseal
       mpv
       neovim
       podman
       ripgrep
       rustup
+      tree-sitter
+      zellij
       yarn
     ];
     sessionVariables = {
@@ -40,10 +47,6 @@
     enable = true;
     userName = "Per Johansson";
     userEmail = "per.a.johansson@svt.se";
-  };
-  programs.lazygit = {
-    enable = true;
-
   };
   programs.fish = {
     enable = true;
