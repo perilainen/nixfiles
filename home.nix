@@ -10,10 +10,13 @@
     # nixpkgs.config.allowUnfree = true;
     packages = with pkgs; [
       # bat
+      bottom
       exa
+      direnv
       docker
       fasd
       fd
+      fish
       ffmpeg
       fzf
       gitui
@@ -22,6 +25,7 @@
       lazygit
       k9s
       kubeseal
+      mas
       mpv
       neovim
       podman
@@ -43,16 +47,35 @@
       italic-text = "always";
     };
   };
+  programs.bottom = {
+    enable = true;
+    settings = {
+      flags = {
+        temperature_type = "c";
+      };
+    };
+
+  };
   programs.git = {
     enable = true;
     userName = "Per Johansson";
     userEmail = "per.a.johansson@svt.se";
+    extraConfig = {
+      pull = {
+        rebase = true;
+      };
+    };
   };
   programs.fish = {
     enable = true;
     plugins = [
       # Need this when using Fish as a default macOS shell in order to pick
       # up ~/.nix-profile/bin
+      {
+        name = "iterm2-shell-integration";
+        src = ./config/fish/iterm2_shell_integration;
+
+      }
       {
         name = "fasd";
         src = pkgs.fetchFromGitHub {
@@ -89,6 +112,9 @@
       # http://fishshell.com/docs/current/index.html#variables-color
       set fish_color_autosuggestion brblack
     '';
+    interactiveShellInit = ''
+      iterm2_shell_integration
+    '';
     shellAliases = {
       l = "exa";
     };
@@ -122,4 +148,5 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+  programs.man.generateCaches = true;
 }
