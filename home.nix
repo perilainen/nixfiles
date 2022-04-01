@@ -33,6 +33,7 @@
       podman
       ripgrep
       rustup
+      starship
       tree-sitter
       zellij
       yarn

@@ -144,6 +144,10 @@ lvim.plugins = {
 --   {"simrat39/rust-tools.nvim",
 -- require('rust-tools').setup({})
 --   },
+  }
+-- Additional Plugins
+lvim.plugins = {
+  {'arouene/vim-ansible-vault'},
   {
   "iamcco/markdown-preview.nvim",
   run = "cd app && npm install",
@@ -152,11 +156,6 @@ lvim.plugins = {
     vim.g.mkdp_auto_start = 1
   end,
 },
-  }
--- Additional Plugins
-lvim.plugins = {
-{'scalameta/nvim-metals'},
-  {'arouene/vim-ansible-vault'}
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
