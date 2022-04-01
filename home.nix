@@ -2,6 +2,8 @@
 
 {
   home = {
+
+    file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
     username = "perjohansson";
