@@ -12,31 +12,34 @@
     # nixpkgs.config.allowUnfree = true;
     packages = with pkgs; [
       # bat
+      # git
       bottom
-      exa
+      ddgr
       direnv
       docker
+      exa
       fasd
       fd
-      fish
       ffmpeg
+      fish
       fzf
       gitui
       go
-      # git
-      lazygit
       k9s
       kubeseal
+      lazygit
       mas
       mpv
+      neuron-notes
       neovim
       podman
       ripgrep
       rustup
       starship
       tree-sitter
-      zellij
+      w3m
       yarn
+      zellij
     ];
     sessionVariables = {
       EDITOR = "lvim";
@@ -120,6 +123,8 @@
     '';
     shellAliases = {
       l = "exa";
+      so = "ddgr -w stackoverflow.com";
+      drd = "ddgr -w doc.rust-lang.org";
     };
     shellAbbrs = {
       g = "git";
