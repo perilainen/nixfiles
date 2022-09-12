@@ -3,7 +3,7 @@
 {
   homebrew.enable = true;
   homebrew.brews = [ "mas" ];
-  homebrew.casks = [ "brave-browser" ];
+  homebrew.casks = [ "brave-browser" "kitty" "sonos" "visual-studio-code" "bloomrpc" ];
   homebrew.masApps = { Flycut = 442160987; };
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
@@ -20,7 +20,7 @@
   services.nix-daemon.enable = true;
   nix = {
     package = pkgs.nix;
-    trustedUsers = [ "root" "perjohansson" "@wheel" ];
+    settings.trusted-users = [ "root" "perjohansson" "@wheel" ];
     extraOptions = ''
       experimental-features = nix-command flakes
     '';
@@ -159,7 +159,7 @@
     #ctrl + alt - k : yabai -m window --insert north
     #ctrl + alt - l : yabai -m window --insert east
     # toggle desktop offset
-    alt - a : yabai -m space --toggle padding; yabai -m space --toggle gap
+    # alt - a : yabai -m space --toggle padding; yabai -m space --toggle gap
     # toggle window parent zoom
     alt - d : yabai -m window --toggle zoom-parent
     # toggle window fullscreen zoom

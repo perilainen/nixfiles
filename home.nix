@@ -1,6 +1,7 @@
 { config, pkgs, ... }:
 
 {
+  # nixpkgs.config.allowBroken = true;
   home = {
 
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
@@ -11,41 +12,78 @@
 
     # nixpkgs.config.allowUnfree = true;
     packages = with pkgs; [
-      # bat
-      # git
+      ansible_2_13
       bottom
+      cmake
+      ctags
+      cyrus_sasl
       ddgr
-      direnv
-      docker
+      # direnv
+      # docker replaced by podman
+      # docker
+      # docker-compose
+      # docker-machine
       exa
       fasd
       fd
       ffmpeg
       fish
       fzf
+      gdb
       gitui
       go
+      grpcurl
+      inetutils
+      # jdk11
+      jq
       k9s
+      kubectl
       kubeseal
       lazygit
+      llvm
+      lua
+      lua53Packages.luarocks
       mas
+      minio-client
       mpv
+      netcat
       neuron-notes
       neovim
+      nodejs
+      nmap
+      openssl_3
       podman
+      podman-compose
+      postgresql
+      protobuf
+      ranger
+      rdkafka
       ripgrep
       rustup
+      SDL
+      sshs
       starship
+      tig
+      tmux
       tree-sitter
+      youtube-dl
       w3m
+      wget
       yarn
       zellij
+      qemu
+      # maven
     ];
     sessionVariables = {
       EDITOR = "lvim";
     };
     stateVersion = "22.05";
   };
+  programs.direnv =
+    {
+      enable = true;
+      nix-direnv.enable = true;
+    };
   programs.bat = {
     enable = true;
     config = {
