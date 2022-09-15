@@ -36,6 +36,7 @@
       inetutils
       # jdk11
       jq
+      helix
       k9s
       kubectl
       kubeseal
@@ -49,7 +50,7 @@
       netcat
       neuron-notes
       neovim
-      nodejs
+      # nodejs
       nmap
       openssl_3
       podman
@@ -70,7 +71,7 @@
       youtube-dl
       w3m
       wget
-      yarn
+      # yarn
       zellij
       qemu
       # maven
