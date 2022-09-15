@@ -46,7 +46,7 @@ lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>"
 -- }
 
 -- Use which-key to add extra bindings with the leader-key prefix
--- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 lvim.builtin.which_key.mappings["a"] = {
   name = "Ansible",
   d = { "<cmd>!ansible-vault decrypt % --vault-password-file=~/.vault_password<cr>", "decrypt" },
@@ -279,3 +279,6 @@ lvim.plugins = {
 vim.opt.mouse = ""
 vim.opt.shell = "/bin/bash"
 vim.opt.relativenumber = true
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldlevel = 99
