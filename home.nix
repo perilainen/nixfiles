@@ -65,6 +65,7 @@
       starship
       tig
       tmux
+      translate-shell
       tree-sitter
       youtube-dl
       w3m
