@@ -3,13 +3,14 @@
 {
   homebrew.enable = true;
   homebrew.brews = [ "mas" ];
-  homebrew.casks = [ "brave-browser" "kitty" "sonos" "visual-studio-code" "bloomrpc" ];
+  homebrew.casks = [ "brave-browser" "kitty" "visual-studio-code" "bloomrpc" "rectangle" ];
   homebrew.masApps = { Flycut = 442160987; };
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages =
     [
       pkgs.vim
+      # pkgs.darwin.apple_sdk.frameworks.Security
     ];
 
   # Use a custom configuration.nix location.
@@ -22,53 +23,54 @@
     package = pkgs.nix;
     settings.trusted-users = [ "root" "perjohansson" "@wheel" ];
     extraOptions = ''
+      extra-platforms = aarch64-darwin x86_64-darwin
       experimental-features = nix-command flakes
     '';
   };
   # nix.package = pkgs.nix;
-  services.yabai = {
-    enable = true;
-    package = pkgs.yabai;
-    enableScriptingAddition = true;
-    config = {
-      # focus_follows_mouse = "autoraise";
-      focus_follows_mouse = "on";
-      mouse_follows_focus = "off";
-      window_placement = "first_child";
-      window_opacity = "off";
-      window_opacity_duration = "0.0";
-      window_border = "off";
-      # window_border_placement = "inset";
-      window_border_width = 6;
-      window_border_radius = 30;
-      active_window_border_topmost = "off";
-      window_topmost = "off";
-      window_shadow = "float";
-      active_window_border_color = "0xff5c7e81";
-      normal_window_border_color = "0xff505050";
-      insert_window_border_color = "0xffd75f5f";
-      active_window_opacity = "1.0";
-      normal_window_opacity = "1.0";
-      split_ratio = "0.50";
-      auto_balance = "off";
-      mouse_modifier = "fn";
-      mouse_action1 = "move";
-      mouse_action2 = "resize";
-      layout = "bsp";
-      top_padding = 0;
-      bottom_padding = 1;
-      left_padding = 1;
-      right_padding = 1;
-      window_gap = 1;
-    };
+  # services.yabai = {
+  #   enable = true;
+  #   package = pkgs.yabai;
+  #   # enableScriptingAddition = true;
+  #   config = {
+  #     # focus_follows_mouse = "autoraise";
+  #     focus_follows_mouse = "on";
+  #     mouse_follows_focus = "off";
+  #     window_placement = "first_child";
+  #     window_opacity = "off";
+  #     window_opacity_duration = "0.0";
+  #     window_border = "off";
+  #     # window_border_placement = "inset";
+  #     window_border_width = 6;
+  #     window_border_radius = 30;
+  #     active_window_border_topmost = "off";
+  #     window_topmost = "off";
+  #     window_shadow = "float";
+  #     active_window_border_color = "0xff5c7e81";
+  #     normal_window_border_color = "0xff505050";
+  #     insert_window_border_color = "0xffd75f5f";
+  #     active_window_opacity = "1.0";
+  #     normal_window_opacity = "1.0";
+  #     split_ratio = "0.50";
+  #     auto_balance = "off";
+  #     mouse_modifier = "fn";
+  #     mouse_action1 = "move";
+  #     mouse_action2 = "resize";
+  #     layout = "bsp";
+  #     top_padding = 0;
+  #     bottom_padding = 1;
+  #     left_padding = 1;
+  #     right_padding = 1;
+  #     window_gap = 1;
+  #   };
 
-    extraConfig = ''
-      # rules
-      yabai -m rule --add app='System Preferences' manage=off
+  #   extraConfig = ''
+  #     # rules
+  #     yabai -m rule --add app='System Preferences' manage=off
 
-      # Any other arbitrary config here
-    '';
-  };
+  #     # Any other arbitrary config here
+  #   '';
+  # };
 
   services.skhd.enable = true;
   services.skhd.package = pkgs.skhd;
@@ -170,7 +172,7 @@
       # toggle window border
       shift + alt - b : yabai -m window --toggle border
       # toggle window split type
-      alt - e : yabai -m window --toggle split
+      alt - w : yabai -m window --toggle split
       # float / unfloat window and center on screen
       alt - t : yabai -m window --toggle float;\
                 yabai -m window --grid 4:4:1:1:2:2
@@ -195,7 +197,6 @@
       #ctrl + alt - t : open -a iTerm.app
       # lock screen
       # cmd - l : /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend
->>>>>>> fb836bd (add helic and some key bidings)
    
       # ctrl + cmd - b : bash -c 'source ~/.bash.d/functions && battpop'
       # ctrl + cmd - d : bash -c 'source ~/.bash.d/functions && timepop
