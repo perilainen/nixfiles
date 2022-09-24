@@ -52,6 +52,23 @@ lvim.builtin.which_key.mappings["a"] = {
   d = { "<cmd>!ansible-vault decrypt % --vault-password-file=~/.vault_password<cr>", "decrypt" },
   e = { "<cmd>!ansible-vault encrypt % --vault-password-file=~/.vault_password<cr>", "encrypt" }
 }
+
+lvim.builtin.which_key.mappings["c"] = {
+  name = "Crates",
+  t = { "<cmd> :lua require('crates').toggle()<cr>", "Toggle" },
+  R = { "<cmd> :lua require('crates').reload()<cr>", "Reload" },
+  v = { "<cmd> :lua require('crates').show_versions_popup()<cr>", "Versions" },
+  f = { "<cmd> :lua require('crates').show_features_popup()<cr>", "Features" },
+  u = { "<cmd> :lua require('crates').update_crate()<cr>", "Update crate" },
+  U = { "<cmd> :lua require('crates').update_all_crates()<cr>", "Update crates" },
+  y = { "<cmd> :lua require('crates').upgrade_crate()<cr>", "Upgrade crate" },
+  Y = { "<cmd> :lua require('crates').upgrade_all_crates()<cr>", "Upgrade all crates" },
+  h = { "<cmd> :lua require('crates').open_homepage()<cr>", "Homepage" },
+  r = { "<cmd> :lua require('crates').open_repository()<cr>", "Repository" },
+  d = { "<cmd> :lua require('crates').open_documentation()<cr>", "Documentation" },
+  C = { "<cmd> :lua require('crates').open_crates_io()<cr>", "Crates IO" },
+  D = { "<cmd> :lua require('crates').show_dependencies_popup()<cr>", "Dependencies" },
+}
 --   name = "+Trouble",
 --   r = { "<cmd>Trouble lsp_references<cr>", "References" },
 --   f = { "<cmd>Trouble lsp_definitions<cr>", "Definitions" },
@@ -268,6 +285,13 @@ lvim.plugins = {
     config = function()
       vim.cmd "highlight default link gitblame SpecialComment"
       vim.g.gitblame_enabled = 0
+    end,
+  },
+  {
+    'saecki/crates.nvim',
+    requires = { 'nvim-lua/plenary.nvim' },
+    config = function()
+      require('crates').setup()
     end,
   },
 }
