@@ -4,6 +4,7 @@
   # nixpkgs.config.allowBroken = true;
   home = {
 
+    file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
@@ -14,9 +15,11 @@
     packages = with pkgs; [
       ansible_2_13
       bottom
-      cmake
+      # cmake
+      # clang
       ctags
       cyrus_sasl
+      # darwin.apple_sdk.frameworks.Security
       ddgr
       # direnv
       # docker replaced by podman
@@ -27,11 +30,11 @@
       fasd
       fd
       ffmpeg
-      fish
+      # fish
       fzf
       gdb
       gitui
-      go
+      # go
       grpcurl
       inetutils
       # jdk11
@@ -50,7 +53,7 @@
       netcat
       neuron-notes
       neovim
-      # nodejs
+      nodejs
       nmap
       openssl_3
       podman
@@ -106,6 +109,10 @@
     enable = true;
     userName = "Per Johansson";
     userEmail = "per.a.johansson@svt.se";
+    aliases =
+      {
+        ap = "add --patch";
+      };
     extraConfig = {
       pull = {
         rebase = true;
@@ -156,10 +163,12 @@
     shellInit = ''
       # Set syntax highlighting colours; var names defined here:
       # http://fishshell.com/docs/current/index.html#variables-color
-      set fish_color_autosuggestion brblack
+      set fish_color_autosuggestion magenta
     '';
     interactiveShellInit = ''
-      iterm2_shell_integration
+      # iterm2_shell_integration
+      set fish_color_cwd --bold white
+      set fish_color_user --bold blue
     '';
     shellAliases = {
       l = "exa";
@@ -174,11 +183,11 @@
       p = "python3";
     };
     functions = {
-      fish_greeting = {
-        description = "Greeting to show when starting a fish shell";
-        body = "";
-      };
-      mkdcd = {
+      # fish_greeting = {
+      #   description = "Greeting to show when starting a fish shell";
+      #   body = "Welcome you are in fish";
+      # };
+      take = {
         description = "Make a directory tree and enter it";
         body = "mkdir -p $argv[1]; and cd $argv[1]";
       };
