@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+  nixpkgs.overlays = [
+    (import (builtins.fetchTarball {
+      url = https://github.com/nix-community/neovim-nightly-overlay/archive/master.tar.gz;
+    }))
+  ];
   # nixpkgs.config.allowBroken = true;
   home = {
 
@@ -36,7 +41,7 @@
       fzf
       gdb
       gitui
-      # go
+      go
       grpcurl
       inetutils
       # jdk11
@@ -54,7 +59,7 @@
       mpv
       netcat
       neuron-notes
-      neovim
+      # neovim
       nodejs
       nmap
       openssl_3
@@ -66,6 +71,7 @@
       rdkafka
       ripgrep
       rustup
+      # rust-analyzer
       SDL
       sshs
       starship
@@ -85,6 +91,10 @@
       EDITOR = "lvim";
     };
     stateVersion = "22.05";
+  };
+  programs.neovim = {
+    enable = true;
+    package = pkgs.neovim-nightly;
   };
   programs.direnv =
     {

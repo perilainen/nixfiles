@@ -194,16 +194,16 @@ lvim.plugins = {
             highlight = "Comment",
           },
           hover_actions = {
-            --border = {
-            --        { "╭", "FloatBorder" },
-            --        { "─", "FloatBorder" },
-            --        { "╮", "FloatBorder" },
-            --        { "│", "FloatBorder" },
-            --        { "╯", "FloatBorder" },
-            --        { "─", "FloatBorder" },
-            --        { "╰", "FloatBorder" },
-            --        { "│", "FloatBorder" },
-            --},
+            border = {
+              { "╭", "FloatBorder" },
+              { "─", "FloatBorder" },
+              { "╮", "FloatBorder" },
+              { "│", "FloatBorder" },
+              { "╯", "FloatBorder" },
+              { "─", "FloatBorder" },
+              { "╰", "FloatBorder" },
+              { "│", "FloatBorder" },
+            },
             auto_focus = true,
           },
         },
@@ -292,6 +292,12 @@ lvim.plugins = {
     requires = { 'nvim-lua/plenary.nvim' },
     config = function()
       require('crates').setup()
+    end,
+  },
+  {
+    "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+    config = function()
+      require("lsp_lines").setup()
     end,
   },
 }
