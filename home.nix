@@ -58,6 +58,7 @@
       minio-client
       mpv
       netcat
+      nerdfonts
       neuron-notes
       # neovim
       nodejs
@@ -81,6 +82,7 @@
       tree-sitter
       youtube-dl
       w3m
+      websocat
       wget
       # yarn
       zellij
@@ -91,6 +93,9 @@
       EDITOR = "lvim";
     };
     stateVersion = "22.05";
+  };
+  programs.tmate = {
+    enable = true;
   };
   programs.neovim = {
     enable = true;
@@ -186,6 +191,7 @@
       l = "exa";
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
+      linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
     };
     shellAbbrs = {
       g = "git";

@@ -19,8 +19,13 @@ lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<Escape>"] = ":nohlsearch<cr>"
-lvim.keys.normal_mode["<S-h>"] = ":bprev<cr>"
-lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>"
+lvim.keys.normal_mode["<S-h>"] = "<cmd>BufferLineCyclePrev<cr>"
+lvim.keys.normal_mode["<S-l>"] = "<cmd>BufferLineCycleNext<cr>"
+lvim.builtin.which_key.mappings["h"] = nil
+lvim.builtin.which_key.mappings["q"] = nil
+lvim.builtin.which_key.mappings["w"] = nil
+lvim.builtin.which_key.mappings[";"] = nil
+lvim.builtin.which_key.mappings["/"] = nil
 
 -- unmap a default keymapping
 -- lvim.keys.normal_mode["<C-Up>"] = false
@@ -80,7 +85,7 @@ lvim.builtin.which_key.mappings["c"] = {
 
 -- TODO: User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
--- lvim.builtin.dashboard.active = true
+lvim.builtin.alpha.active = false
 lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
@@ -294,12 +299,31 @@ lvim.plugins = {
       require('crates').setup()
     end,
   },
-  {
-    "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+  { "nvim-neorg/neorg",
     config = function()
-      require("lsp_lines").setup()
+      require('neorg').setup {
+        load = {
+          ["core.defaults"] = {},
+          ["core.norg.dirman"] = {
+            config = {
+              workspaces = {
+                work = "~/notes/work",
+                home = "~/notes/personal",
+              }
+            }
+          }
+        }
+
+      }
     end,
+    requires = "nvim-lua/plenary.nvim"
   },
+  -- {
+  --   "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+  --   config = function()
+  --     require("lsp_lines").setup()
+  --   end,
+  -- },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
