@@ -61,7 +61,8 @@
       nerdfonts
       neuron-notes
       # neovim
-      nodejs
+      # nodejs
+      nodejs-16_x
       nmap
       openssl_3
       podman
