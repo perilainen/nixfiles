@@ -12,6 +12,7 @@
     file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
     file.".config/kitty/current-theme.conf".source = ./config/kitty/current-theme.conf;
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
+    # file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
 
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
@@ -132,6 +133,10 @@
         ap = "add --patch";
       };
     extraConfig = {
+      url."git@git.svt.se:".insteadOf = "https://git.svt.se/";
+      init = {
+        defaultBranch = "main";
+      };
       pull = {
         rebase = true;
       };
@@ -193,6 +198,8 @@
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
       linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
+      vpnnps = "sudo openconnect --user=pejo03 asavpn.svt.se/NPStest";
+      vpnsvt = "sudo openconnect --user=pejo03 asavpn.svt.se/svtvpn";
     };
     shellAbbrs = {
       g = "git";

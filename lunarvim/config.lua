@@ -32,9 +32,9 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 --   },
 -- }
 -- lvim.builtin.which_key.mappings["r"] = {
-  -- name ="Rust",
-  -- l = {"<cmd>lua require('rust-tools.inlay_hints').set_inlay_hints()<cr>","Inlay hints"},
-  -- n = {"<cmd>lua require('rust-tools.inlay_hints').disable_inlay_hints()<cr>","No Inlay hints"},
+-- name ="Rust",
+-- l = {"<cmd>lua require('rust-tools.inlay_hints').set_inlay_hints()<cr>","Inlay hints"},
+-- n = {"<cmd>lua require('rust-tools.inlay_hints').disable_inlay_hints()<cr>","No Inlay hints"},
 -- }
 
 -- Use which-key to add extra bindings with the leader-key prefix
@@ -136,11 +136,11 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- Additional Plugins
 lvim.plugins = {
-  {"cappyzawa/go-playground.nvim"},
---     {
---       "folke/trouble.nvim",
---       cmd = "TroubleToggle",
---     },
+  { "cappyzawa/go-playground.nvim" },
+  --     {
+  --       "folke/trouble.nvim",
+  --       cmd = "TroubleToggle",
+  --     },
 }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
