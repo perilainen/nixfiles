@@ -134,6 +134,7 @@
       };
     extraConfig = {
       url."git@git.svt.se:".insteadOf = "https://git.svt.se/";
+      url."git@github.com:".insteadOf = "https://github.com/";
       init = {
         defaultBranch = "main";
       };
