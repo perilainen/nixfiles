@@ -251,7 +251,7 @@ lvim.plugins = {
   { 'arouene/vim-ansible-vault' },
   {
     "iamcco/markdown-preview.nvim",
-    run = "cd app && npm install",
+    build = "cd app && npm install",
     ft = "markdown",
     config = function()
       vim.g.mkdp_auto_start = 1
@@ -294,7 +294,7 @@ lvim.plugins = {
   },
   {
     'saecki/crates.nvim',
-    requires = { 'nvim-lua/plenary.nvim' },
+    dependencies = { 'nvim-lua/plenary.nvim' },
     config = function()
       require('crates').setup()
     end,
@@ -316,7 +316,7 @@ lvim.plugins = {
 
       }
     end,
-    requires = "nvim-lua/plenary.nvim"
+    dependencies = "nvim-lua/plenary.nvim"
   },
   -- {
   --   "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
