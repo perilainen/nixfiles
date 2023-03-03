@@ -1,18 +1,19 @@
 { config, pkgs, ... }:
 
 {
-  nixpkgs.overlays = [
-    (import (builtins.fetchTarball {
-      url = https://github.com/nix-community/neovim-nightly-overlay/archive/master.tar.gz;
-    }))
-  ];
+  # nixpkgs.overlays = [
+  #   (import (builtins.fetchTarball {
+  #     url = https://github.com/nix-community/neovim-nightly-overlay/archive/master.tar.gz;
+  #   }))
+  # ];
   # nixpkgs.config.allowBroken = true;
   home = {
 
     file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
     file.".config/kitty/current-theme.conf".source = ./config/kitty/current-theme.conf;
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
-    # file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
+    file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
+    file."/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
 
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
@@ -34,6 +35,7 @@
       # docker
       # docker-compose
       # docker-machine
+      elixir
       exa
       fasd
       fd
@@ -77,7 +79,9 @@
       # rust-analyzer
       SDL
       sshs
+      spotify-tui
       starship
+      thefuck
       tig
       tmux
       translate-shell
@@ -86,11 +90,17 @@
       w3m
       websocat
       wget
-      # yarn
+      yarn
       zellij
+      # zlib
       qemu
       # maven
     ];
+    sessionPath =
+      [
+        "$HOME/.cargo/bin"
+      ];
+
     sessionVariables = {
       EDITOR = "lvim";
     };
@@ -101,7 +111,7 @@
   };
   programs.neovim = {
     enable = true;
-    package = pkgs.neovim-nightly;
+    # package = pkgs.neovim-nightly;
   };
   programs.direnv =
     {
@@ -141,6 +151,8 @@
       pull = {
         rebase = true;
       };
+      fetch.prune = true;
+      rebase.autostash = true;
     };
   };
   programs.fish = {
@@ -195,6 +207,7 @@
       set fish_color_user --bold blue
     '';
     shellAliases = {
+      x = "clear";
       l = "exa";
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
