@@ -62,7 +62,7 @@ lvim.builtin.which_key.mappings["a"] = {
   e = { "<cmd>!ansible-vault encrypt % --vault-password-file=~/.vault_password<cr>", "encrypt" }
 }
 
-lvim.builtin.which_key.mappings["c"] = {
+lvim.builtin.which_key.mappings["C"] = {
   name = "Crates",
   t = { "<cmd> :lua require('crates').toggle()<cr>", "Toggle" },
   R = { "<cmd> :lua require('crates').reload()<cr>", "Reload" },
