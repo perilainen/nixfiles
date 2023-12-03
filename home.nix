@@ -7,12 +7,17 @@
   #   }))
   # ];
   # nixpkgs.config.allowBroken = true;
+  imports =
+    [
+      ./packages.nix
+      ./neovim
+    ];
   home = {
 
     file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
     file.".config/kitty/current-theme.conf".source = ./config/kitty/current-theme.conf;
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
-    file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
+    # file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
     file."/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
 
     # Home Manager needs a bit of information about you and the
@@ -23,7 +28,7 @@
     # nixpkgs.config.allowUnfree = true;
     packages = with pkgs; [
       ansible_2_13
-      bottom
+      # bottom
       # cmake
       # clang
       ctags
@@ -36,20 +41,29 @@
       # docker-compose
       # docker-machine
       elixir
-      exa
+      # exa
       fasd
       fd
       ffmpeg
       # fish
       fzf
-      gdb
-      gitui
-      go
+      git-lfs
+      # gdb
+      # gitui
+      # secrets
+      # git-secrets
+      # git-secret
+      # sops
+      # age
+      # gnupg
+      # go
+      hstr
+      mage
       grpcurl
       inetutils
       # jdk11
       jq
-      helix
+      # helix
       k9s
       kubectl
       kubeseal
@@ -59,27 +73,29 @@
       lua53Packages.luarocks
       mas
       minio-client
-      mpv
+      mpv-unwrapped
       netcat
       nerdfonts
-      neuron-notes
+      # neuron-notes
       # neovim
-      # nodejs
-      nodejs-16_x
+      nodejs
+      # nodePackages.grunt-cli
+      # nodejs-16_x
       nmap
-      openssl_3
+      # openssl_3
+      pipenv
       podman
       podman-compose
       postgresql
       protobuf
-      ranger
+      # ranger
       rdkafka
       ripgrep
       rustup
       # rust-analyzer
       SDL
       sshs
-      spotify-tui
+      # spotify-tui
       starship
       thefuck
       tig
@@ -103,16 +119,18 @@
 
     sessionVariables = {
       EDITOR = "lvim";
+      SOPS_AGE_KEY_DIR = "~/.config/sops/age";
     };
     stateVersion = "22.05";
   };
   programs.tmate = {
     enable = true;
   };
-  programs.neovim = {
-    enable = true;
-    # package = pkgs.neovim-nightly;
-  };
+  programs.xplr.enable = true;
+  # programs.neovim = {
+  # enable = true;
+  # package = pkgs.neovim-nightly;
+  # };
   programs.direnv =
     {
       enable = true;
@@ -125,16 +143,17 @@
       italic-text = "always";
     };
   };
-  programs.bottom = {
-    enable = true;
-    settings = {
-      flags = {
-        temperature_type = "c";
-      };
-    };
+  # programs.bottom = {
+  #   enable = true;
+  #   settings = {
+  #     flags = {
+  #       temperature_type = "c";
+  #     };
+  #   };
 
-  };
+  # };
   programs.git = {
+    lfs.enable = true;
     enable = true;
     userName = "Per Johansson";
     userEmail = "per.a.johansson@svt.se";
@@ -208,7 +227,6 @@
     '';
     shellAliases = {
       x = "clear";
-      l = "exa";
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
       linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
@@ -219,8 +237,10 @@
       g = "git";
       m = "make";
       n = "nvim";
+      l = "lvim";
       o = "open";
       p = "python3";
+      dus = "du -sh ./* | sort -h";
     };
     functions = {
       # fish_greeting = {

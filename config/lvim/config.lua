@@ -303,25 +303,26 @@ lvim.plugins = {
       require('crates').setup()
     end,
   },
-  { "nvim-neorg/neorg",
-    config = function()
-      require('neorg').setup {
-        load = {
-          ["core.defaults"] = {},
-          ["core.norg.dirman"] = {
-            config = {
-              workspaces = {
-                work = "~/notes/work",
-                home = "~/notes/personal",
-              }
-            }
-          }
-        }
+  -- { "nvim-neorg/neorg",
+  --   config = function()
+  --     require('neorg').setup {
+  --       load = {
+  --         ["core.defaults"] = {},
+  --         ["core.norg.dirman"] = {
+  --           config = {
+  --             workspaces = {
+  --               work = "~/notes/work",
+  --               home = "~/notes/personal",
+  --             }
+  --           }
+  --         }
+  --       }
 
-      }
-    end,
-    dependencies = "nvim-lua/plenary.nvim"
-  },
+  --     }
+  --   end,
+  --   dependencies = "nvim-lua/plenary.nvim"
+  -- },
+  -- { "github/copilot.vim" },
   -- {
   --   "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
   --   config = function()
@@ -329,6 +330,17 @@ lvim.plugins = {
   --   end,
   -- },
 }
+table.insert(lvim.plugins, {
+  "zbirenbaum/copilot-cmp",
+  event = "InsertEnter",
+  dependencies = { "zbirenbaum/copilot.lua" },
+  config = function()
+    vim.defer_fn(function()
+      require("copilot").setup() -- https://github.com/zbirenbaum/copilot.lua/blob/master/README.md#setup-and-configuration
+      require("copilot_cmp").setup() -- https://github.com/zbirenbaum/copilot-cmp/blob/master/README.md#configuration
+    end, 100)
+  end,
+})
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- lvim.autocommands.custom_groups = {
