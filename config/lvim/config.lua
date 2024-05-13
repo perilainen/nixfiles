@@ -15,7 +15,7 @@ lvim.colorscheme = "onedarker"
 lvim.builtin.dap.active = true
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
-lvim.leader = "space"
+lvim.leader = ","
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.keys.normal_mode["<Escape>"] = ":nohlsearch<cr>"
@@ -36,6 +36,7 @@ lvim.builtin.which_key.mappings["/"] = nil
 -- edit a default keymapping
 -- lvim.keys.normal_mode["<C-q>"] = ":q<cr>"
 
+lvim.keys.normal_mode["<C-]>"] = ":ToggleTerm<cr>"
 -- Change Telescope navigation to use j and k for navigation and n and p for history in both input and normal mode.
 -- we use protected-mode (pcall) just in case the plugin wasn't loaded yet.
 -- local _, actions = pcall(require, "telescope.actions")
@@ -56,6 +57,7 @@ lvim.builtin.which_key.mappings["/"] = nil
 
 -- Use which-key to add extra bindings with the leader-key prefix
 lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+lvim.builtin.which_key.mappings["t"] = { "<cmd>ToggleTerm<CR>", "terminal" }
 lvim.builtin.which_key.mappings["a"] = {
   name = "Ansible",
   d = { "<cmd>!ansible-vault decrypt % --vault-password-file=~/.vault_password<cr>", "decrypt" },
@@ -63,6 +65,7 @@ lvim.builtin.which_key.mappings["a"] = {
 }
 
 lvim.builtin.which_key.mappings["C"] = {
+
   name = "Crates",
   t = { "<cmd> :lua require('crates').toggle()<cr>", "Toggle" },
   R = { "<cmd> :lua require('crates').reload()<cr>", "Reload" },
@@ -123,8 +126,8 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- vim.list_extend(lvim.lsp.override, { "pyright" })
 
 -- ---@usage setup a server -- see: https://www.lunarvim.org/languages/#overriding-the-default-configuration
--- local opts = {} -- check the lspconfig documentation for a list of all possible options
--- require("lvim.lsp.manager").setup("pylsp", opts)
+local opts = {} -- check the lspconfig documentation for a list of all possible options
+require("lvim.lsp.manager").setup("ruff_lsp", opts)
 
 -- -- you can set a custom on_attach function that will be used for all the language servers
 -- -- See <https://github.com/neovim/nvim-lspconfig#keybindings-and-completion>
@@ -177,7 +180,7 @@ lvim.plugins = {
 }
 -- Additional Plugins
 lvim.plugins = {
-  -- { 'mfussenegger/nvim-dap' },
+  { "tpope/vim-surround", },
   {
     "simrat39/rust-tools.nvim",
     config = function()
@@ -269,7 +272,8 @@ lvim.plugins = {
   --     neuron_dir = "~/neuron", -- the directory of all of your notes, expanded by default (currently supports only one directory for notes, find a way to detect neuron.dhall to use any directory)
   -- leader = "gz", -- the leader key to for all mappings, remember with 'go zettel'
   -- } },
-  { 'nvim-orgmode/orgmode',
+  {
+    'nvim-orgmode/orgmode',
     config = function()
       require('orgmode').setup_ts_grammar()
       require('orgmode').setup({
@@ -336,7 +340,7 @@ table.insert(lvim.plugins, {
   dependencies = { "zbirenbaum/copilot.lua" },
   config = function()
     vim.defer_fn(function()
-      require("copilot").setup() -- https://github.com/zbirenbaum/copilot.lua/blob/master/README.md#setup-and-configuration
+      require("copilot").setup()     -- https://github.com/zbirenbaum/copilot.lua/blob/master/README.md#setup-and-configuration
       require("copilot_cmp").setup() -- https://github.com/zbirenbaum/copilot-cmp/blob/master/README.md#configuration
     end, 100)
   end,
@@ -346,8 +350,8 @@ table.insert(lvim.plugins, {
 -- lvim.autocommands.custom_groups = {
 --   { "BufWinEnter", "*.lua", "setlocal ts=8 sw=8" },
 -- }
-vim.opt.mouse = ""
-vim.opt.shell = "/bin/bash"
+-- vim.opt.mouse = ""
+-- vim.opt.shell = "/bin/bash"
 vim.opt.relativenumber = true
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"

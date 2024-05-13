@@ -10,7 +10,7 @@
   imports =
     [
       ./packages.nix
-      ./neovim
+      # ./neovim
     ];
   home = {
 
@@ -27,7 +27,8 @@
 
     # nixpkgs.config.allowUnfree = true;
     packages = with pkgs; [
-      ansible_2_13
+      autojump
+      # ansible_2_13
       # bottom
       # cmake
       # clang
@@ -56,7 +57,7 @@
       # sops
       # age
       # gnupg
-      # go
+      go
       hstr
       mage
       grpcurl
@@ -77,7 +78,7 @@
       netcat
       nerdfonts
       # neuron-notes
-      # neovim
+      neovim
       nodejs
       # nodePackages.grunt-cli
       # nodejs-16_x
@@ -107,6 +108,7 @@
       websocat
       wget
       yarn
+      yazi
       zellij
       # zlib
       qemu
@@ -136,13 +138,13 @@
       enable = true;
       nix-direnv.enable = true;
     };
-  programs.bat = {
-    enable = true;
-    config = {
-      theme = "GitHub";
-      italic-text = "always";
-    };
-  };
+  # programs.bat = {
+  # enable = true;
+  # config = {
+  #   theme = "GitHub";
+  #   italic-text = "always";
+  # };
+  # };
   # programs.bottom = {
   #   enable = true;
   #   settings = {
@@ -172,6 +174,14 @@
       };
       fetch.prune = true;
       rebase.autostash = true;
+      merge.tool = "lvim";
+      mergetool.keepBackup = false;
+      mergetool.prompt = false;
+      mergetool.lvim.cmd = "lvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J'";
+      # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J'";
+      # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J'";
+      # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J'";
+      # mergetool.nvim.cmd = "nvim -d $LOCAL $BA
     };
   };
   programs.fish = {
@@ -230,8 +240,9 @@
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
       linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
-      vpnnps = "sudo openconnect --user=pejo03 asavpn.svt.se/NPStest";
-      vpnsvt = "sudo openconnect --user=pejo03 asavpn.svt.se/svtvpn";
+      vpnnps = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/NPStest";
+      vpnsvt = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/svtvpn";
+      vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/novavpn";
     };
     shellAbbrs = {
       g = "git";
@@ -241,6 +252,7 @@
       o = "open";
       p = "python3";
       dus = "du -sh ./* | sort -h";
+      se = "TERM=xterm ssh -J smash.svt.se";
     };
     functions = {
       # fish_greeting = {
