@@ -49,6 +49,7 @@
       # fish
       fzf
       git-lfs
+      gnused
       # gdb
       # gitui
       # secrets
@@ -229,6 +230,7 @@
       # Set syntax highlighting colours; var names defined here:
       # http://fishshell.com/docs/current/index.html#variables-color
       set fish_color_autosuggestion magenta
+      abbr reka --set-cursor=! "sed -i '!d' /Users/perjohansson/.ssh/known_hosts "
     '';
     interactiveShellInit = ''
       # iterm2_shell_integration
