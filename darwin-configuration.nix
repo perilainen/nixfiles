@@ -7,6 +7,21 @@
   homebrew.masApps = { Flycut = 442160987; };
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
+  system.defaults = {
+    dock = {
+      autohide = true;
+      orientation = "left";
+      show-process-indicators = false;
+      show-recents = false;
+      static-only = true;
+    };
+    finder = {
+      AppleShowAllFiles = true;
+      AppleShowAllExtensions = true;
+      ShowPathbar = true;
+      FXEnableExtensionChangeWarning = false;
+    };
+  };
   environment.systemPackages =
     [
       pkgs.openconnect
@@ -27,6 +42,25 @@
       extra-platforms = aarch64-darwin x86_64-darwin
       experimental-features = nix-command flakes
     '';
+    gc = {
+      automatic = true;
+      # dates = "weekly";
+      options = "--delete-older-than 14d";
+    };
+    settings.extra-trusted-users = [ "perjohansson" "@admin" ];
+    linux-builder = {
+      enable = true;
+      maxJobs = config.nix.settings.max-jobs;
+      config = {
+        virtualisation = {
+          darwin-builder = {
+            diskSize = 40 * 1024;
+            memorySize = 8 * 1024;
+          };
+          cores = 6;
+        };
+      };
+    };
   };
   # Create /etc/bashrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina

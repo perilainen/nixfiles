@@ -69,15 +69,16 @@
       k9s
       kubectl
       kubeseal
-      lazygit
+      # lazygit
       llvm
       lua
       lua53Packages.luarocks
       mas
       minio-client
-      mpv-unwrapped
+      # mpv-unwrapped
       netcat
-      nerdfonts
+      # nerdfonts
+      (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
       # neuron-notes
       neovim
       nodejs
@@ -95,6 +96,7 @@
       ripgrep
       rustup
       # rust-analyzer
+      llm
       SDL
       sshs
       # spotify-tui
@@ -104,7 +106,7 @@
       tmux
       translate-shell
       tree-sitter
-      youtube-dl
+      # youtube-dl
       w3m
       websocat
       wget
@@ -114,6 +116,12 @@
       # zlib
       qemu
       # maven
+      # language servers
+      marksman
+      nil
+      nodePackages.typescript-language-server
+      yaml-language-server
+      marksman
     ];
     sessionPath =
       [
@@ -126,7 +134,16 @@
     };
     stateVersion = "22.05";
   };
+  programs.lazygit = {
+    enable = true;
+    settings = {
+      open = "lvim";
+    };
+  };
   programs.tmate = {
+    enable = true;
+  };
+  programs.mpv = {
     enable = true;
   };
   programs.xplr.enable = true;
@@ -184,6 +201,13 @@
       # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J'";
       # mergetool.nvim.cmd = "nvim -d $LOCAL $BA
     };
+  };
+  programs.helix = {
+    enable = true;
+    settings.keys.normal."," = {
+      s = "split_selection_on_newline";
+    };
+    settings.keys.normal.esc = [ "collapse_selection" "keep_primary_selection" ];
   };
   programs.fish = {
     enable = true;

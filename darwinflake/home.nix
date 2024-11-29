@@ -36,6 +36,7 @@
       cyrus_sasl
       # darwin.apple_sdk.frameworks.Security
       ddgr
+      devenv
       # direnv
       # docker replaced by podman
       # docker
@@ -78,7 +79,8 @@
       # mpv-unwrapped
       netcat
       # nerdfonts
-      (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+      # (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+      nerd-fonts.fira-code
       # neuron-notes
       neovim
       nodejs
@@ -191,10 +193,10 @@
       };
       fetch.prune = true;
       rebase.autostash = true;
-      merge.tool = "lvim";
+      merge.tool = "nvim";
       mergetool.keepBackup = false;
       mergetool.prompt = false;
-      mergetool.lvim.cmd = "lvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J'";
+      mergetool.lvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J'";
       # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J'";
       # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J'";
       # mergetool.nvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J' -c 'wincmd J'";
@@ -265,9 +267,9 @@
       so = "ddgr -w stackoverflow.com";
       drd = "ddgr -w doc.rust-lang.org";
       linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
-      vpnnps = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/NPStest";
-      vpnsvt = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/svtvpn";
-      vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect asavpn.svt.se/novavpn";
+      vpnnps = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/NPStest";
+      vpnsvt = "sudo openconnect --user=pejo03 --useragent=AnyConnect  --gnutls-priority=NORMAL:-VERS-TLS1.3 asavpn.svt.se/svtvpn";
+      vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/novavpn";
     };
     shellAbbrs = {
       g = "git";
