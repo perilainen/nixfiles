@@ -14,8 +14,8 @@
     ];
   home = {
 
-    file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
-    file.".config/kitty/current-theme.conf".source = ./config/kitty/current-theme.conf;
+    # file.".config/kitty/kitty.conf".source = ./config/kitty/kitty.conf;
+    # file.".config/kitty/current-theme.conf".source = ./config/kitty/current-theme.conf;
     file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
     # file."/Users/perjohansson/Library/Application Support/k9s/config.yml".source = ./config/k9s/config.yml;
     file."/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
@@ -135,6 +135,20 @@
     };
     stateVersion = "22.05";
   };
+  programs.kitty = {
+    enable = true;
+    shellIntegration.enableFishIntegration = true;
+    themeFile = "Catppuccin-Macchiato";
+    keybindings = {
+      "ctrl+shift+enter" = "new_window_with_cwd";
+      "ctrl+shift+t" = "new_tab_with_cwd";
+      "ctrl+enter" = "goto_layout stack";
+    };
+    settings = {
+      enable_audio_bell = false;
+    };
+  };
+
   programs.lazygit = {
     enable = true;
     settings = {
