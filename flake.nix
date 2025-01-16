@@ -15,73 +15,57 @@
     # linux-builder.url = "path:/Users/perjohansson/nixfiles/darwinflake/linuxbuilder";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, mac-app-util, ... }:
-    {
-      # Build darwin flake using:
-      # $ darwin-rebuild build --flake .#simple
-      darwinConfigurations."Pers-MacBook-Pro-2" = nix-darwin.lib.darwinSystem {
-        modules = [
-          ./hosts/mac/configuration.nix
-          # configuration
-          inputs.home-manager.darwinModules.home-manager
-          # linux-builder.darwinConfigurations.machine1
-          {
-
-            # nixpkgs = nixpkgsConfig;
-            home-manager.sharedModules = [
-              mac-app-util.homeManagerModules.default
-            ];
-
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.perjohansson = import ./hosts/mac/home.nix;
-
-          }
-
-        ];
-      };
-      darwinConfigurations."test" = nix-darwin.lib.darwinSystem {
-        modules = [
-          ./hosts/mac/configuration.nix
-          # configuration
-          inputs.home-manager.darwinModules.home-manager
-          # linux-builder.darwinConfigurations.machine1
-          {
-
-            # nixpkgs = nixpkgsConfig;
-            home-manager.sharedModules = [
-              mac-app-util.homeManagerModules.default
-            ];
-
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.perjohansson = import ./hosts/mac/home.nix;
-
-          }
-
-        ];
-      };
-      nixosConfigurations = {
-        nixos = nixpkgs.lib.nixosSystem {
-          system = "x86_64-linux";
-          specialArgs = { inherit inputs; };
-          modules = [
-            ./configuration.nix
-            home-manager.nixosModules.home-manager
-            {
-              home-manager.useGlobalPkgs = true;
-              home-manager.useUserPackages = true;
-              home-manager.extraSpecialArgs = { inherit inputs; };
-              home-manager.users.perj = import ./perj-home.nix;
-
-              # Optionally, use home-manager.extraSpecialArgs to pass
-              # arguments to home.nix
-            }
+  outputs = inputs @ {
+    self,
+    nix-darwin,
+    nixpkgs,
+    home-manager,
+    mac-app-util,
+    ...
+  }: {
+    # Build darwin flake using:
+    # $ darwin-rebuild build --flake .#simple
+    darwinConfigurations."Pers-MacBook-Pro-2" = nix-darwin.lib.darwinSystem {
+      system = "aarch64-darwin";
+      modules = [
+        ./hosts/mac/configuration.nix
+        # configuration
+        inputs.home-manager.darwinModules.home-manager
+        # linux-builder.darwinConfigurations.machine1
+        {
+          # nixpkgs = nixpkgsConfig;
+          home-manager.sharedModules = [
+            mac-app-util.homeManagerModules.default
           ];
-        };
-      };
 
-      # Expose the package set, including overlays, for convenience.
-      darwinPackages = self.darwinConfigurations."simple".pkgs;
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.extraSpecialArgs = {inherit inputs;};
+          home-manager.users.perjohansson = import ./home.nix;
+        }
+      ];
     };
+    nixosConfigurations = {
+      nixos = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs = {inherit inputs;};
+        modules = [
+          ./configuration.nix
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = {inherit inputs;};
+            home-manager.users.perj = import ./perj-home.nix;
+
+            # Optionally, use home-manager.extraSpecialArgs to pass
+            # arguments to home.nix
+          }
+        ];
+      };
+    };
+
+    # Expose the package set, including overlays, for convenience.
+    darwinPackages = self.darwinConfigurations."simple".pkgs;
+  };
 }

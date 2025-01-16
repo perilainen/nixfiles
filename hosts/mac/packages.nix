@@ -3,6 +3,7 @@
   home = {
     packages = with pkgs; [
       # bottom
+      # jq
     ];
   };
   programs.bottom = {

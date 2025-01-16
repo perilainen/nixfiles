@@ -1,16 +1,16 @@
 require("telescope").load_extension("ui-select")
 
 require("catppuccin").setup({
-  flavour = "mocha",
-  color_overrides = {
-    mocha = {
-      base = "#1e1e2f",
-    },
-  },
-  styles = {
-    properties = { "italic" },
-    operators = { "bold" },
-  },
+	flavour = "mocha",
+	color_overrides = {
+		mocha = {
+			base = "#1e1e2f",
+		},
+	},
+	styles = {
+		properties = { "italic" },
+		operators = { "bold" },
+	},
 })
 
 vim.api.nvim_set_hl(0, "IlluminatedWordText", { link = "Visual" })
@@ -29,7 +29,7 @@ require("mini.surround").setup()
 require("mini.move").setup()
 require("octo").setup()
 require("renamer").setup({
-  empty = true,
+	empty = true,
 })
 
 -- require('barbecue').setup {}
@@ -42,14 +42,14 @@ require("renamer").setup({
 -- }
 
 require("feline").setup({
-  components = require("catppuccin.groups.integrations.feline").get(),
+	components = require("catppuccin.groups.integrations.feline").get(),
 })
 
 require("FTerm").setup({
-  dimensions = {
-    height = 0.9,
-    width = 0.9,
-  },
+	dimensions = {
+		height = 0.9,
+		width = 0.9,
+	},
 })
 
 -- require('mini.indentscope').setup {
@@ -60,50 +60,50 @@ require("FTerm").setup({
 -- }
 
 require("mini.jump2d").setup({
-  mappings = {
-    start_jumping = "s",
-  },
+	mappings = {
+		start_jumping = "s",
+	},
 })
 
 require("nvim-treesitter.configs").setup({
-  rainbow = {
-    enable = true,
-    query = "rainbow-parens",
-    strategy = require("ts-rainbow").strategy.global,
-    disable = { "tsx" },
-  },
+	rainbow = {
+		enable = true,
+		query = "rainbow-parens",
+		strategy = require("ts-rainbow").strategy.global,
+		disable = { "tsx" },
+	},
 })
 
 vim.api.nvim_create_autocmd("FileType", {
-  callback = function(tbl)
-    local set_offset = require("bufferline.api").set_offset
+	callback = function(tbl)
+		local set_offset = require("bufferline.api").set_offset
 
-    local bufwinid
-    local last_width
-    local autocmd = vim.api.nvim_create_autocmd("WinScrolled", {
-      callback = function()
-        bufwinid = bufwinid or vim.fn.bufwinid(tbl.buf)
+		local bufwinid
+		local last_width
+		local autocmd = vim.api.nvim_create_autocmd("WinScrolled", {
+			callback = function()
+				bufwinid = bufwinid or vim.fn.bufwinid(tbl.buf)
 
-        local width = vim.api.nvim_win_get_width(bufwinid)
-        if width ~= last_width then
-          set_offset(width, "FileTree")
-          last_width = width
-        end
-      end,
-    })
+				local width = vim.api.nvim_win_get_width(bufwinid)
+				if width ~= last_width then
+					set_offset(width, "FileTree")
+					last_width = width
+				end
+			end,
+		})
 
-    vim.api.nvim_create_autocmd("BufWipeout", {
-      buffer = tbl.buf,
-      callback = function()
-        vim.api.nvim_del_autocmd(autocmd)
-        set_offset(0)
-      end,
-      once = true,
-    })
-  end,
-  pattern = "NvimTree",
+		vim.api.nvim_create_autocmd("BufWipeout", {
+			buffer = tbl.buf,
+			callback = function()
+				vim.api.nvim_del_autocmd(autocmd)
+				set_offset(0)
+			end,
+			once = true,
+		})
+	end,
+	pattern = "NvimTree",
 })
 
 vim.keymap.set("i", "<C-j>", function()
-  return vim.fn["codeium#Accept"]()
+	return vim.fn["codeium#Accept"]()
 end, { expr = true })

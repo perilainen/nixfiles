@@ -1,9 +1,9 @@
-{ pkgs, ... }: {
+{pkgs, ...}: {
   homebrew = {
     enable = true;
-    brews = [ "mas" ];
-    casks = [ "brave-browser" "rectangle" "bitwarden" "docker" ];
-    masApps = { Flycut = 442160987; };
+    brews = ["mas"];
+    casks = ["brave-browser" "rectangle" "bitwarden" "docker"];
+    masApps = {Flycut = 442160987;};
     onActivation = {
       autoUpdate = true;
       cleanup = "uninstall";
@@ -13,13 +13,12 @@
   };
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  environment.systemPackages =
-    [
-      pkgs.vim
-      pkgs.darwin.apple_sdk.frameworks.Security
-      pkgs.openconnect
-      pkgs.fish
-    ];
+  environment.systemPackages = [
+    pkgs.vim
+    pkgs.darwin.apple_sdk.frameworks.Security
+    pkgs.openconnect
+    pkgs.fish
+  ];
 
   security.pam.enableSudoTouchIdAuth = true;
   # Auto upgrade nix package and the daemon service.
@@ -55,7 +54,7 @@
     #   };
     # };
   };
-  environment.shells = [ pkgs.zsh pkgs.fish ];
+  environment.shells = [pkgs.zsh pkgs.fish];
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
@@ -73,7 +72,7 @@
   };
 
   # The platform the configuration will be used on.
-  nixpkgs.hostPlatform = "aarch64-darwin";
+  # nixpkgs.hostPlatform = "aarch64-darwin";
   system.defaults = {
     dock = {
       autohide = true;

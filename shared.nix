@@ -6,15 +6,15 @@
       jq
     ];
   };
-  programs.bottom = {
-    enable = true;
-    settings = {
-      flags = {
-        temperature_type = "c";
-      };
-    };
-
-  };
+  # programs.bottom = {
+  #   enable = true;
+  #   settings = {
+  #     flags = {
+  #       temperature_type = "c";
+  #     };
+  #   };
+  #
+  # };
   # programs.helix = {
   #   enable = true;
   #   settings.keys.normal.K = "hover";
