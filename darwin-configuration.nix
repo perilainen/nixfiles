@@ -1,7 +1,21 @@
 { config, pkgs, ... }:
 
 {
+  hemebrew = {
+    enable = true;
+    autoUpdate = true;
+    brews = [ "mas" ];
+    casks = [ "brave-browser" "visual-studio-code" "bloomrpc" "rectangle" "bitwarden" "docker" ];
+    masApps = { Flycut = 442160987; };
+    onActivation = {
+      autoUpdate = true;
+      cleanup = "uninstall";
+      upgrade = true;
+      # Set the default shell to zsh.
+    };
+  };
   homebrew.enable = true;
+  homebrew.autoUpdate = true;
   homebrew.brews = [ "mas" ];
   homebrew.casks = [ "brave-browser" "kitty" "visual-studio-code" "bloomrpc" "rectangle" "bitwarden" "docker" ];
   homebrew.masApps = { Flycut = 442160987; };

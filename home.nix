@@ -134,6 +134,7 @@
     };
     stateVersion = "22.05";
   };
+  programs.kitty.enable = true;
   programs.lazygit = {
     enable = true;
     settings = {
