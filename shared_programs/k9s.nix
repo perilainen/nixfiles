@@ -20,7 +20,7 @@
     #   };
     # };
     hotkey = {
-      hotKey = {
+      hotKeys = {
         shift-1 = {
           shortCut = "Shift-1";
           description = "Switch to context app";
