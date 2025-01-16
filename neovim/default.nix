@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{pkgs, ...}: {
   programs.nixvim = {
     enable = true;
     # extraConfigLua = builtins.readFile ./init.lua;
@@ -10,13 +10,13 @@
         flavour = "mocha";
         term_colors = true;
         styles = {
-          keywords = [ "italic" ];
-          conditionals = [ "bold" ];
-          loops = [ "bold" ];
-          functions = [ "bold" ];
-          properties = [ "italic" ];
-          booleans = [ "bold" "italic" ];
-          operators = [ "bold" ];
+          keywords = ["italic"];
+          conditionals = ["bold"];
+          loops = ["bold"];
+          functions = ["bold"];
+          properties = ["italic"];
+          booleans = ["bold" "italic"];
+          operators = ["bold"];
         };
         integrations = {
           # barbar = true;
@@ -151,7 +151,7 @@
         enable = true;
         settings = {
           sections = {
-            lualine_x = [ "lsp_progress" "encoding" ];
+            lualine_x = ["lsp_progress" "encoding"];
           };
         };
       };
@@ -170,27 +170,27 @@
         enable = true;
 
         settings = {
-          experimental = { ghost_text = true; };
+          experimental = {ghost_text = true;};
           snippet.expand = ''
             function(args)
               require('luasnip').lsp_expand(args.body)
             end
           '';
           sources = [
-            { name = "nvim_lsp"; }
-            { name = "luasnip"; }
+            {name = "nvim_lsp";}
+            {name = "luasnip";}
             {
               name = "buffer";
               option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
             }
-            { name = "nvim_lua"; }
-            { name = "path"; }
-            { name = "copilot"; }
-            { name = "codeium-vim"; }
+            {name = "nvim_lua";}
+            {name = "path";}
+            {name = "copilot";}
+            {name = "codeium-vim";}
           ];
 
           formatting = {
-            fields = [ "abbr" "kind" "menu" ];
+            fields = ["abbr" "kind" "menu"];
             format =
               # lua
               ''
@@ -250,11 +250,11 @@
               winhighlight = "FloatBorder:CmpBorder,Normal:CmpPmenu,CursorLine:CmpSel,Search:PmenuSel";
               scrollbar = false;
               sidePadding = 0;
-              border = [ "╭" "─" "╮" "│" "╯" "─" "╰" "│" ];
+              border = ["╭" "─" "╮" "│" "╯" "─" "╰" "│"];
             };
 
             settings.documentation = {
-              border = [ "╭" "─" "╮" "│" "╯" "─" "╰" "│" ];
+              border = ["╭" "─" "╮" "│" "╯" "─" "╰" "│"];
               winhighlight = "FloatBorder:CmpBorder,Normal:CmpPmenu,CursorLine:CmpSel,Search:PmenuSel";
             };
           };
@@ -366,7 +366,7 @@
       # ];
       # nvim-cmp.window.documentation.maxWidth = "40";
       # copilot-cmp.enable = true;
-      # codeium-vim.enable = true;
+      codeium-vim.enable = true;
 
       copilot-lua = {
         enable = true;
@@ -402,7 +402,7 @@
       #   recommendedKeymaps = true;
       # };
 
-      lsp-format = { enable = true; };
+      lsp-format = {enable = true;};
       lsp = {
         enable = true;
         keymaps = {
@@ -481,12 +481,12 @@
                 enforce = true;
                 group = "item";
               };
-              files.excludeDirs = [ ".direnv" ];
+              files.excludeDirs = [".direnv"];
             };
 
             extraOptions.settings = {
               cargo.allFeatures = true;
-              files.excludeDirs = [ ".direnv" ];
+              files.excludeDirs = [".direnv"];
               unstable_features = true;
               #   tab_spaces = 2;
               #   reorder_impl_items = true;

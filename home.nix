@@ -7,24 +7,39 @@
 }: let
   isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
-in {
-  # nixpkgs.overlays = [
-  #   (import (builtins.fetchTarball {
-  #     url = https://github.com/nix-community/neovim-nightly-overlay/archive/master.tar.gz;
-  #   }))
-  # ];
-  # nixpkgs.config.allowBroken = true;
-  imports = [
-    inputs.nixvim.homeManagerModules.nixvim
-    # ./packages.nix
-    ../../shared.nix
-    ../../shared_programs/default.nix
-    # ./neovim
-    ../../neovim
+  linuximports = [
+    ./hypr
+    ./waybar
   ];
+in {
+  # nixpkgs.config.allowBroken = true;
+  nixpkgs.config.aloowUnfree = true;
+  imports =
+    [
+      inputs.nixvim.homeManagerModules.nixvim
+      # ./packages.nix
+      ./shared.nix
+      ./shared_programs/default.nix
+      # ./neovim
+      ./neovim
+    ]
+    ++ (
+      if isLinux
+      then linuximports
+      else []
+    );
   home = {
-    file.".config/lvim/config.lua".source = ./config/lvim/config.lua;
-    file."/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
+    file =
+      {
+      }
+      // (
+        if isDarwin
+        then {
+          ".config/lvim/config.lua".source = ./config/lvim/config.lua;
+          "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
+        }
+        else {}
+      );
 
     # Home Manager needs a bit of information about you and the
     # paths it should manage.
