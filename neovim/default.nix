@@ -43,6 +43,7 @@
       relativenumber = true;
       shiftwidth = 0;
       tabstop = 2;
+      conceallevel = 2;
       showtabline = 2;
       expandtab = true;
       smarttab = true;
@@ -370,8 +371,8 @@
 
       copilot-lua = {
         enable = true;
-        panel.enabled = false;
-        suggestion.enabled = false;
+        settings.panel.enabled = false;
+        settings.suggestion.enabled = false;
       };
       # noice.enable = true;
       # notify= {
@@ -384,6 +385,21 @@
       nvim-lightbulb.enable = true;
       todo-comments.enable = true;
 
+      obsidian = {
+        enable = true;
+        settings = {
+          workspaces = [
+            {
+              name = "personal";
+              path = "~/vaults/personal";
+            }
+            {
+              name = "work";
+              path = "~/vaults/work";
+            }
+          ];
+        };
+      };
       barbar = {
         enable = true;
         # autoHide = true;

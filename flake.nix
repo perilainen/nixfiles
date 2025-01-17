@@ -65,6 +65,26 @@
         ];
       };
     };
+    nixosConfigurations = {
+      nixos-vm = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        specialArgs = {inherit inputs;};
+        modules = [
+          ./hosts/nixos-vm/configuration.nix
+          home-manager.nixosModules.home-manager
+          {
+            home-manager.backupFileExtension = ".bak";
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = {inherit inputs;};
+            home-manager.users.perj = import ./home.nix;
+
+            # Optionally, use home-manager.extraSpecialArgs to pass
+            # arguments to home.nix
+          }
+        ];
+      };
+    };
 
     # Expose the package set, including overlays, for convenience.
     darwinPackages = self.darwinConfigurations."simple".pkgs;

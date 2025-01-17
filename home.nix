@@ -1,13 +1,14 @@
-{
-  inputs,
-  config,
-  lib,
-  pkgs,
-  ...
-}: let
+{ inputs
+, config
+, lib
+, pkgs
+, ...
+}:
+let
   isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
-in {
+in
+{
   # nixpkgs.config.allowBroken = true;
   imports = [
     inputs.nixvim.homeManagerModules.nixvim
@@ -26,14 +27,14 @@ in {
   # ]);
   home = {
     file =
-      {}
+      { }
       // (
         if isDarwin
         then {
           # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
           # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
         }
-        else {}
+        else { }
       );
 
     # Home Manager needs a bit of information about you and the
@@ -163,19 +164,20 @@ in {
         size = 11;
       };
     }
-    else {};
+    else { };
   fonts =
     if isLinux
     then {
       fontconfig.enable = true;
     }
-    else {};
+    else { };
   programs.kodi =
     if isLinux
     then {
       enable = true;
     }
-    else {};
+    else { };
+  programs.navi.enable = true;
   programs.autojump = {
     enable = true;
   };
@@ -344,7 +346,7 @@ in {
       {
         layer = "top";
         position = "top";
-        modules-center = ["clock" "custom/suspend" "custom/logout"];
+        modules-center = [ "clock" "custom/suspend" "custom/logout" ];
         modules-left = [
           "hyprland/workspaces"
           "hyplrland/mode"

@@ -2,7 +2,7 @@
   homebrew = {
     enable = true;
     brews = ["mas"];
-    casks = ["brave-browser" "rectangle" "bitwarden" "docker"];
+    casks = ["brave-browser" "rectangle" "bitwarden" "docker" "obsidian"];
     masApps = {Flycut = 442160987;};
     onActivation = {
       autoUpdate = true;
