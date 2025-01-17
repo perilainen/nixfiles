@@ -117,7 +117,6 @@ in {
 
         bitwarden
         pavucontrol
-        cider
         mpd
         vim
         nh
@@ -132,6 +131,7 @@ in {
       ])
       ++ (lib.optional (system == "x86_64-linux") [
         google-chrome
+        cider
       ]);
     sessionPath = [
       "$HOME/.cargo/bin"
