@@ -67,7 +67,7 @@
     xkb.options = "caps:escape";
   };
   # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
+  # services.xserver.displayManager.gdm.enable = true;
 
   systemd.services.vmtoolsd = {
     description = "VMware Tools Daemon";
