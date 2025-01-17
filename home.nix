@@ -7,7 +7,7 @@
 }: let
   isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
-  system = builtins.currentSystem;
+  system = pkgs.stdenv.system;
 in {
   # nixpkgs.config.allowBroken = true;
   imports = [
