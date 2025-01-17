@@ -1,13 +1,14 @@
-{
-  inputs,
-  config,
-  lib,
-  pkgs,
-  ...
-}: let
+{ inputs
+, config
+, lib
+, pkgs
+, ...
+}:
+let
   isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
-in {
+in
+{
   # nixpkgs.config.allowBroken = true;
   imports = [
     inputs.nixvim.homeManagerModules.nixvim
@@ -26,15 +27,14 @@ in {
   # ]);
   home = {
     file =
-      {
-      }
+      { }
       // (
         if isDarwin
         then {
           # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
           # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
         }
-        else {}
+        else { }
       );
 
     # Home Manager needs a bit of information about you and the
@@ -44,7 +44,7 @@ in {
 
     packages = with pkgs;
       [
-        autojump
+        # autojump
         ctags
         cyrus_sasl
         ddgr
@@ -164,19 +164,58 @@ in {
         size = 11;
       };
     }
-    else {};
+    else { };
   fonts =
     if isLinux
     then {
       fontconfig.enable = true;
     }
-    else {};
+    else { };
   programs.kodi =
     if isLinux
     then {
       enable = true;
     }
-    else {};
+    else { };
+  programs.autojump = {
+    enable = true;
+  };
+  programs.foot = {
+    enable = isLinux;
+    settings = {
+      main = {
+        term = "xterm-256color";
+
+        # font = "Fira Code:size=11";
+        dpi-aware = "yes";
+      };
+
+      mouse = {
+        hide-when-typing = "yes";
+      };
+      colors = {
+        foreground = "cdd6f4"; # Text
+        background = "1e1e2e"; # Base
+        regular0 = "45475a"; # Surface 1
+        regular1 = "f38ba8"; # red
+        regular2 = "a6e3a1"; # green
+        regular3 = "f9e2af"; # yellow
+        regular4 = "89b4fa"; # blue
+        regular5 = "f5c2e7"; # pink
+        regular6 = "94e2d5"; # teal
+        regular7 = "bac2de"; # Subtext 1
+        bright0 = "585b70"; # Surface 2
+        bright1 = "f38ba8"; # red
+        bright2 = "a6e3a1"; # green
+        bright3 = "f9e2af"; # yellow
+        bright4 = "89b4fa"; # blue
+        bright5 = "f5c2e7"; # pink
+        bright6 = "94e2d5"; # teal
+        bright7 = "a6adc8"; # Subtext 0
+      };
+    };
+  };
+
   programs.kitty = {
     enable = true;
     shellIntegration.enableFishIntegration = true;
@@ -306,7 +345,7 @@ in {
       {
         layer = "top";
         position = "top";
-        modules-center = ["clock" "custom/suspend" "custom/logout"];
+        modules-center = [ "clock" "custom/suspend" "custom/logout" ];
         modules-left = [
           "hyprland/workspaces"
           "hyplrland/mode"
@@ -957,4 +996,52 @@ in {
 
     '';
   };
+  programs.wofi = {
+    enable = isLinux;
+    settings = {
+      allow-images = true;
+    };
+    style = ''
+      window {
+      margin: 0px;
+      border: 1px solid #88c0d0;
+      background-color: #2e3440;
+      }
+
+      #input {
+      margin: 5px;
+      border: none;
+      color: #d8dee9;
+      background-color: #3b4252;
+      }
+
+      #inner-box {
+      margin: 5px;
+      border: none;
+      background-color: #2e3440;
+      }
+
+      #outer-box {
+      margin: 5px;
+      border: none;
+      background-color: #2e3440;
+      }
+
+      #scroll {
+      margin: 0px;
+      border: none;
+      }
+
+      #text {
+      margin: 5px;
+      border: none;
+      color: #d8dee9;
+      }
+
+      #entry:selected {
+      background-color: #3b4252;
+      }
+    '';
+  };
+
 }
