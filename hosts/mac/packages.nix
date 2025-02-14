@@ -1,7 +1,8 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home = {
     packages = with pkgs; [
+      sketchybar
+      sketchybar-app-font
       # bottom
       # jq
     ];
@@ -13,6 +14,5 @@
         temperature_type = "c";
       };
     };
-
   };
 }

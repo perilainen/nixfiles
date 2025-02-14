@@ -31,6 +31,7 @@ in {
       // (
         if isDarwin
         then {
+          "/Users/perjohansson/.aerospace.toml".source = ./config/aerospace/aerospace.toml;
           # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
           # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
         }
@@ -49,6 +50,7 @@ in {
         cyrus_sasl
         ddgr
         devenv
+        discord
         elixir
         fd
         ffmpeg
@@ -141,7 +143,7 @@ in {
       EDITOR = "nvim";
       SOPS_AGE_KEY_DIR = "~/.config/sops/age";
     };
-    stateVersion = "22.05";
+    stateVersion = "24.11";
   };
   # home.pointerCursor =
   #   if isLinux
@@ -180,6 +182,7 @@ in {
       enable = true;
     }
     else {};
+  programs.fastfetch.enable = true;
   programs.navi.enable = true;
   programs.autojump = {
     enable = true;
@@ -317,6 +320,8 @@ in {
       p = "python3";
       dus = "du -sh ./* | sort -h";
       se = "TERM=xterm ssh -J smash.svt.se";
+      flakeinspect = "nix repl --expr 'let flake = builtins.getFlake \"$PWD\";
+      pkgs = import <nixpkgs> {}; in { inherit pkgs flake; }'";
     };
     functions = {
       # fish_greeting = {
@@ -1000,6 +1005,7 @@ in {
 
     '';
   };
+  programs.bat.enable = true;
   programs.wofi = {
     enable = isLinux;
     settings = {
@@ -1047,4 +1053,5 @@ in {
       }
     '';
   };
+  programs.obs-studio.enable = isLinux;
 }

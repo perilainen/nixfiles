@@ -74,6 +74,18 @@
       }
       {
         mode = "n";
+        key = "<ctrl>d";
+        options.silent = true;
+        action = "<CMD>:qa<CR>";
+      }
+      {
+        mode = "n";
+        key = "<leader>l";
+        options.desc = "LSP";
+        action = "";
+      }
+      {
+        mode = "n";
         key = "<leader>ln";
         options.silent = true;
         action = "<cmd>Navbuddy<CR>";
@@ -92,6 +104,18 @@
       }
       {
         mode = "n";
+        key = "<leader>lc";
+        options.silent = true;
+        action = "<cmd>CopilotChatToggle<CR>";
+      }
+      {
+        mode = "n";
+        key = "<leader>s";
+        options.desc = "Search";
+        action = "";
+      }
+      {
+        mode = "n";
         key = "<leader>ss";
         options.silent = true;
         action = "<cmd>:Telescope<CR>";
@@ -104,6 +128,13 @@
       }
       {
         mode = "n";
+        key = "<leader>g";
+        options.silent = true;
+        options.desc = "Git";
+        action = "";
+      }
+      {
+        mode = "n";
         key = "<leader>gg";
         options.silent = true;
         action = "<cmd>LazyGit<CR>";
@@ -113,6 +144,18 @@
         key = "<leader>e";
         options.silent = true;
         action = "<cmd>NvimTreeToggle<CR>";
+      }
+      {
+        mode = "n";
+        key = "<leader>h";
+        options.silent = true;
+        action = "<cmd>BufferPrevious<CR>";
+      }
+      {
+        mode = "n";
+        key = "<leader>n";
+        options.silent = true;
+        action = "<cmd>BufferNext<CR>";
       }
     ];
 
@@ -136,7 +179,23 @@
     # };
 
     plugins = {
+      project-nvim.enableTelescope = true;
       project-nvim.enable = true;
+      # rustaceanvim.enable = true;
+      rustaceanvim = {
+        enable = true;
+        settings.server = {
+          default_settings = {
+            inlayHints = {lifetimeElisionHints = {enable = "always";};};
+            rust-analyzer = {
+              cargo = {allFeatures = true;};
+              check = {command = "clippy";};
+              files = {excludeDirs = ["target" ".git" ".cargo" ".github" ".direnv"];};
+            };
+          };
+        };
+      };
+      copilot-chat.enable = true;
       # alpha.enable = true;
       gitsigns.enable = true;
       gitblame.enable = true;
@@ -367,7 +426,7 @@
       # ];
       # nvim-cmp.window.documentation.maxWidth = "40";
       # copilot-cmp.enable = true;
-      codeium-vim.enable = true;
+      codeium-vim.enable = false;
 
       copilot-lua = {
         enable = true;
@@ -488,7 +547,7 @@
             # plugins.rope.enabled = true;
           };
           rust_analyzer = {
-            enable = true;
+            enable = false;
             installCargo = true;
             installRustc = true;
 

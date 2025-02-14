@@ -59,7 +59,7 @@ in {
       cmp-buffer.enable = true;
       cmp-path.enable = true;
       nvim-autopairs.enable = true;
-      rust-tools.enable = true;
+      # rust-tools.enable = true;
       treesitter.enable = true;
       noice.enable = true;
       notify.enable = true;
