@@ -31,7 +31,7 @@ in {
       // (
         if isDarwin
         then {
-          "/Users/perjohansson/.aerospace.toml".source = ./config/aerospace/aerospace.toml;
+          # "/Users/perjohansson/.aerospace.toml".source = ./config/aerospace/aerospace.toml;
           # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
           # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
         }
@@ -262,6 +262,7 @@ in {
     aliases = {
       ap = "add --patch";
     };
+    signing.format = "openpgp";
     extraConfig = {
       url."git@git.svt.se:".insteadOf = "https://git.svt.se/";
       url."git@github.com:".insteadOf = "https://github.com/";

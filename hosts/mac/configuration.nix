@@ -34,7 +34,7 @@
     pkgs.sketchybar
     # pkgs.aerospace
   ];
-  services.yabai.enable = true;
+  services.yabai.enable = false;
   # services.yabai.config = {
   #   top_padding = 36;
   #   layout = "bsp";
@@ -89,7 +89,7 @@
 
             alt-tab = "workspace-back-and-forth";
             alt-shift-tab = "move-workspace-to-monitor --wrap-around next";
-            alt-shift-semicolon = "mode service";
+            # alt-shift-semicolon = "mode service";
 
             # Workspaces
             alt-1 = "workspace 1";
@@ -121,7 +121,7 @@
 
         # service = {
         #   binding = {
-        #     esc = [ "reload-config", "mode main" ];
+        #     esc = "mode main";
         #     r = [ "flatten-workspace-tree", "mode main" ];
         #     f = [ "layout floating tiling", "mode main" ];
         #     backspace = [ "close-all-windows-but-current", "mode main" ];
@@ -134,9 +134,9 @@
         #     down = "volume down";
         #     up = "volume up";
         #     shift-down = [ "volume set 0", "mode main" ];
-        #   };
-        # };
       };
+      #   };
+      # };
     };
   };
   services.sketchybar.enable = false;
@@ -197,12 +197,13 @@
   nixpkgs.config.allowUnfree = true;
   security.pam.enableSudoTouchIdAuth = true;
   # Auto upgrade nix package and the daemon service.
-  services.nix-daemon.enable = true;
+  # services.nix-daemon.enable = true;
   # nix.package = pkgs.nix;
 
   # Necessary for using flakes on this system.
   # nix.settings.experimental-features = "nix-command flakes";
   nix = {
+    enable = true;
     settings = {
       experimental-features = "nix-command flakes";
     };
@@ -213,7 +214,7 @@
     gc = {
       automatic = true;
       options = "--delete-older-than 14d";
-      user = "perjohansson";
+      # user = "perjohansson";
     };
     # linux-builder = {
     #   enable = true;
