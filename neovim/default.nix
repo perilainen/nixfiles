@@ -179,6 +179,7 @@
     # };
 
     plugins = {
+      crates.enable = true;
       project-nvim.enableTelescope = true;
       project-nvim.enable = true;
       # rustaceanvim.enable = true;
@@ -610,6 +611,7 @@
         };
       };
 
+      # telescope = import ./plugin/telescope/default.nix;
       telescope = {
         enable = true;
         extensions.fzf-native.enable = true;
@@ -625,6 +627,10 @@
         enable = true;
         nixGrammars = true;
       };
+      # // (
+      # (import ./plugin/telescope)
+      # // (import ./plugin/telescope)
+      # );
     };
 
     extraPlugins = with pkgs.vimPlugins; [

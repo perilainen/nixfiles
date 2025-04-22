@@ -7,11 +7,12 @@
     ];
     casks = [
       "brave-browser"
-      "rectangle"
+      # "rectangle"
       "bitwarden"
       "obsidian"
       "vmware-fusion"
       "docker"
+      "cursor"
       # "aerospace"
     ];
     masApps = {Flycut = 442160987;};
@@ -195,7 +196,8 @@
   '';
 
   nixpkgs.config.allowUnfree = true;
-  security.pam.enableSudoTouchIdAuth = true;
+  # security.pam.enableSudoTouchIdAuth = true;
+  security.pam.services.sudo_local.touchIdAuth = true;
   # Auto upgrade nix package and the daemon service.
   # services.nix-daemon.enable = true;
   # nix.package = pkgs.nix;

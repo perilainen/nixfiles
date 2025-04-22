@@ -1,6 +1,6 @@
 {
   telescope = {
-    enable = true;
+    enable = false;
     extensions.fzf-native.enable = true;
     settings.defaults.layout_config.vertical.height = 0.5;
     keymaps = {
