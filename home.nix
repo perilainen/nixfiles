@@ -71,7 +71,8 @@ in {
         lua53Packages.luarocks
         minio-client
         netcat
-        nerd-fonts.fira-code
+        nerdfonts
+        #nerd-fonts.fira-code
         # neovim
         nil
         nodejs
@@ -126,9 +127,9 @@ in {
         comma
         nyxt
         noto-fonts
-        nerd-fonts.fira-code
-        nerd-fonts.iosevka-term-slab
-        nerd-fonts.symbols-only
+        # nerd-fonts.fira-code
+        # nerd-fonts.iosevka-term-slab
+        # nerd-fonts.symbols-only
         font-awesome
       ])
       ++ (lib.optional (system == "x86_64-linux") [
@@ -223,6 +224,7 @@ in {
     };
   };
 
+  programs.obs-studio.enable = true;
   programs.kitty = {
     enable = true;
     shellIntegration.enableFishIntegration = true;
@@ -253,6 +255,8 @@ in {
   programs.direnv = {
     enable = true;
     nix-direnv.enable = true;
+    enableBashIntegration = true;
+    # enableFishIntegration = true;
   };
   programs.git = {
     lfs.enable = true;
@@ -997,8 +1001,8 @@ in {
       bindm = $mainMod, mouse:272, movewindow
       bindm = $mainMod, mouse:273, resizewindow
 
-      exec-once=bash ~/.config/hypr/start.sh
-      exec-once=bash ~/.config/hypr/start2.sh
+      # exec-once=bash ~/.config/hypr/start.sh
+      # exec-once=bash ~/.config/hypr/start2.sh
       exec-once = wl-paste --type text --watch cliphist store #Stores only text data
 
       exec-once = wl-paste --type image --watch cliphist store #Stores only image data

@@ -51,6 +51,7 @@
   services.input-remapper.enable = true;
   # Enable the GNOME Desktop Environment.
   services.displayManager.sddm.enable = true;
+  services.displayManager.defaultSession = "none+awesome";
   # services.xserver.desktopManager.gnome.enable = true;
 
   services.xserver = {
@@ -58,6 +59,13 @@
     desktopManager = {
       xfce.enable = true;
       gnome.enable = true;
+    };
+    windowManager.awesome = {
+      enable = true;
+      luaModules = with pkgs.luaPackages; [
+        luarocks
+        luadbi-mysql
+      ];
     };
   };
   # Configure keymap in X11
@@ -107,11 +115,13 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+  virtualisation.docker.enable = true;
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.perj = {
     isNormalUser = true;
     description = "Per Johansson";
-    extraGroups = ["networkmanager" "wheel"];
+    extraGroups = ["networkmanager" "wheel" "docker"];
+    shell = pkgs.fish;
     packages = with pkgs; [
       vim
       #  thunderbird
@@ -120,8 +130,8 @@
 
   nixpkgs.config.allowUnfree = true;
   # Enable automatic login for the user.
-  services.xserver.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "perj";
+  # services.xserver.displayManager.autoLogin.enable = true;
+  # services.xserver.displayManager.autoLogin.user = "perj";
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
   systemd.services."getty@tty1".enable = false;
@@ -184,13 +194,13 @@
   # ];
   programs.hyprland = {
     enable = true;
-    xwayland.enable = true;
+    # xwayland.enable = true;
     # nvidiaPatches = true;
-    package = inputs.hyprland.packages.${pkgs.system}.hyprland;
+    # package = inputs.hyprland.packages.${pkgs.system}.hyprland;
   };
   hardware = {
     graphics = {enable = true;};
-    nvidia.modesetting.enable = true;
+    # nvidia.modesetting.enable = true;
   };
   xdg.portal.enable = true;
   # Install firefox.

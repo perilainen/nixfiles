@@ -181,6 +181,7 @@
     plugins = {
       crates.enable = true;
       project-nvim.enableTelescope = true;
+      vim-be-good.enable = true;
       project-nvim.enable = true;
       # rustaceanvim.enable = true;
       rustaceanvim = {
@@ -428,6 +429,7 @@
       # nvim-cmp.window.documentation.maxWidth = "40";
       # copilot-cmp.enable = true;
       codeium-vim.enable = false;
+      #codeium-vim.enable = true;
 
       copilot-lua = {
         enable = true;
@@ -446,7 +448,7 @@
       todo-comments.enable = true;
 
       obsidian = {
-        enable = true;
+        enable = false;
         settings = {
           workspaces = [
             {

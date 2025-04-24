@@ -12,21 +12,15 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/931a2fd9-ad5c-4055-ac9b-c770a3d56d32";
+    { device = "/dev/disk/by-uuid/192be4df-804d-4320-a6d2-8848e539b0a4";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/FEA1-CEBB";
+    { device = "/dev/disk/by-uuid/12DE-18BB";
       fsType = "vfat";
       options = [ "fmask=0077" "dmask=0077" ];
     };
-system.fsPackages = [pkgs.open-vm-tools];
-#fileSystems."/mnt/perjohansson" = {
-#  device = ".host:/perjohansson";
-#  fsType = "fuse./run/current-system-sw/bin-vmhgfs-fuse";
-#  options = ["umast=22" "uid=1000" "gid=100" "allow_other" "defaults" "auto_unmount"];
-#};
 
   swapDevices = [ ];
 

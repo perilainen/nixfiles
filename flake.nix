@@ -4,11 +4,14 @@
   inputs = {
     # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-24.11";
     # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-24.05-darwin";
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    home-manager-stable.url = "github:nix-community/home-manager/release-24.11";
+    home-manager-stable.inputs.nixpkgs.follows = "nixpkgs-stable";
     mac-app-util.url = "github:hraban/mac-app-util";
     nixvim.url = "github:nix-community/nixvim";
     hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
@@ -19,7 +22,9 @@
     self,
     nix-darwin,
     nixpkgs,
+    nixpkgs-stable,
     home-manager,
+    home-manager-stable,
     mac-app-util,
     ...
   }: {
@@ -66,12 +71,12 @@
       };
     };
     nixosConfigurations = {
-      nixos-vm = nixpkgs.lib.nixosSystem {
+      nixos-vm = nixpkgs-stable.lib.nixosSystem {
         system = "aarch64-linux";
         specialArgs = {inherit inputs;};
         modules = [
           ./hosts/nixos-vm/configuration.nix
-          home-manager.nixosModules.home-manager
+          home-manager-stable.nixosModules.home-manager
           {
             home-manager.backupFileExtension = ".bak";
             home-manager.useGlobalPkgs = true;
