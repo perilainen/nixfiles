@@ -13,6 +13,7 @@
       "vmware-fusion"
       "docker"
       "cursor"
+      # "stretchly"
       # "aerospace"
     ];
     masApps = {Flycut = 442160987;};
