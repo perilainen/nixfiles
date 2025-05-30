@@ -71,7 +71,7 @@ in {
         lua53Packages.luarocks
         minio-client
         netcat
-        nerdfonts
+        # nerdfonts
         #nerd-fonts.fira-code
         # neovim
         nil
@@ -224,7 +224,7 @@ in {
     };
   };
 
-  programs.obs-studio.enable = true;
+  # programs.obs-studio.enable = true;
   programs.kitty = {
     enable = true;
     shellIntegration.enableFishIntegration = true;
