@@ -13,10 +13,13 @@
       "vmware-fusion"
       "docker"
       "cursor"
+      "hammerspoon"
+      "raycast"
+      "arc"
       # "stretchly"
       # "aerospace"
     ];
-    masApps = {Flycut = 442160987;};
+    # masApps = {Flycut = 442160987;};
     onActivation = {
       # autoUpdate = true;
       cleanup = "uninstall";
@@ -34,6 +37,7 @@
     pkgs.fish
     pkgs.cachix
     pkgs.sketchybar
+    # pkgs.raycast
     # pkgs.aerospace
   ];
   services.yabai.enable = false;
@@ -238,6 +242,7 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
   programs.fish.enable = true;
+  # programs.hammerspoon.enable = true;
 
   # Set Git commit hash for darwin-version.
   # system.configurationRevision = self.rev or self.dirtyRev or null;

@@ -16,6 +16,7 @@ in {
     ./shared.nix
     ./shared_programs/default.nix
     ./neovim
+    ./clipboard-logger.nix
     # ./neovim
     # These does not work on mac how do i contitionally import them
     # ./waybar.nix
@@ -25,6 +26,9 @@ in {
   # ++ (lib.optionals isLinux [
   # ./waybar.nix
   # ]);
+  services.clipboardLogger = {
+    enable = true;
+  };
   home = {
     file =
       {}
@@ -236,6 +240,7 @@ in {
     };
     settings = {
       enable_audio_bell = false;
+      allow_remote_control = "yes";
     };
   };
 
@@ -314,7 +319,7 @@ in {
       vpnnps = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/NPStest";
       vpnsvt = "sudo openconnect --user=pejo03 --useragent=AnyConnect  --gnutls-priority=NORMAL:-VERS-TLS1.3 asavpn.svt.se/svtvpn";
       vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/novavpn";
-      sysup = "darwin-rebuild switch --flake ~/nixfiles/.";
+      sysup = "sudo darwin-rebuild switch --flake ~/nixfiles/.";
       lvim = "nvim -u ~/.config/nvim/lazyviminit.lua";
     };
     shellAbbrs = {

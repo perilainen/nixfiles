@@ -428,7 +428,7 @@
       # ];
       # nvim-cmp.window.documentation.maxWidth = "40";
       # copilot-cmp.enable = true;
-      codeium-vim.enable = false;
+      windsurf-vim.enable = false;
       #codeium-vim.enable = true;
 
       copilot-lua = {
