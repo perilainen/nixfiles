@@ -1,0 +1,5618 @@
+{
+  "metadata" : {
+    "generator" : "SubtitleConverter - master-1849562"
+  },
+  "styles" : {
+    "text" : [ {
+      "className" : "relivemark",
+      "style" : {
+        "color" : "#FF0000"
+      }
+    }, {
+      "className" : "urfjarran",
+      "style" : {
+        "italic" : true
+      }
+    }, {
+      "style" : {
+        "color" : "#DFDFDF"
+      }
+    }, {
+      "className" : "ljud",
+      "style" : {
+        "color" : "#FF00FF"
+      }
+    }, {
+      "className" : "sang",
+      "style" : {
+        "color" : "#00FF00"
+      }
+    }, {
+      "className" : "emfas",
+      "style" : {
+        "italic" : true
+      }
+    }, {
+      "className" : "huvudpratare",
+      "style" : {
+        "color" : "#00FFFF"
+      }
+    }, {
+      "className" : "ljudskylt",
+      "style" : {
+        "color" : "#FF00FF"
+      }
+    } ],
+    "video" : [ {
+      "style" : {
+        "dimension" : {
+          "width" : 1280,
+          "height" : 720
+        },
+        "safeArea" : {
+          "top" : 6.0,
+          "right" : 22.0,
+          "bottom" : 6.0,
+          "left" : 22.0
+        },
+        "pixelAspectRatio" : 1.0
+      }
+    } ],
+    "subtitle" : [ {
+      "className" : "special",
+      "style" : {
+        "justification" : "left",
+        "halign" : "left",
+        "valign" : "top"
+      }
+    }, {
+      "className" : "relivemark",
+      "style" : {
+        "halign" : "right",
+        "valign" : "top"
+      }
+    }, {
+      "className" : "svartslack",
+      "style" : {
+        "opacity" : 100.0
+      }
+    }, {
+      "className" : "frilagg",
+      "style" : {
+        "valign" : "middle"
+      }
+    }, {
+      "style" : {
+        "opacity" : 55.0,
+        "padding" : {
+          "top" : 20.0,
+          "right" : 50.0,
+          "bottom" : 30.0,
+          "left" : 50.0
+        },
+        "lineSpacing" : 1.1,
+        "font" : {
+          "name" : "SVT Undertext tx",
+          "size" : 54.0
+        },
+        "outline" : {
+          "color" : "#000000",
+          "width" : 3.0,
+          "opacity" : 60.0
+        },
+        "x" : 0.0,
+        "y" : 0.0,
+        "justification" : "left",
+        "boxing" : "normal",
+        "halign" : "left",
+        "valign" : "bottom",
+        "position" : "relative"
+      }
+    }, {
+      "className" : "live",
+      "style" : {
+        "maxRows" : 2,
+        "minRows" : 2
+      }
+    }, {
+      "className" : "skylt",
+      "style" : {
+        "justification" : "center",
+        "halign" : "center"
+      }
+    }, {
+      "className" : "namnskylt",
+      "style" : {
+        "valign" : "top"
+      }
+    }, {
+      "className" : "ljudskylt",
+      "style" : {
+        "justification" : "right",
+        "halign" : "right"
+      }
+    } ]
+  },
+  "subtitles" : [ {
+    "id" : "2dbf6e422a954d35826627565efe2958",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:01.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Betsson tvingas betala fem miljoner"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "till spelmissbrukare"
+      } ]
+    } ]
+  }, {
+    "id" : "0e571f0f4ea742c29841dd6b980049cf",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:05.800",
+      "out" : "00:00:07.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "efter Högsta domstolens unika beslut."
+      } ]
+    } ]
+  }, {
+    "id" : "a2ba89822df24b69b2956f545ed0344b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:07.480",
+      "out" : "00:00:12.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "För få barn föds i Sverige"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "– regeringen oroad."
+      } ]
+    } ]
+  }, {
+    "id" : "2150b11585854eff9795f91f22dcea00",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:12.240",
+      "out" : "00:00:16.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag kan tänka mig att det beror på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "hur världen ser ut idag, mycket."
+      } ]
+    } ]
+  }, {
+    "id" : "bc99faa3fe1541539c857522d903a05d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:16.600",
+      "out" : "00:00:21.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och så en jubilar: Öresundsbron"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "firar ett kvarts sekel idag."
+      } ]
+    } ]
+  }, {
+    "id" : "ab6d1fc46aef496eb26ca374bd06fe5e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:28.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Välkomna till Rapport."
+      } ]
+    } ]
+  }, {
+    "id" : "6e6779a63d504210afcece97c92dc32e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:30.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Spelbolaget Betsson ska betala"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "tillbaka drygt fem miljoner kronor"
+      } ]
+    } ]
+  }, {
+    "id" : "f76164aa2920489999a6e49112a3c696",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:35.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "till en spelmissbrukare."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Det slår Högsta domstolen fast."
+      } ]
+    } ]
+  }, {
+    "id" : "c9c741fe8bd144ef917e5c1d7be61024",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:40.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Enligt domstolen har spelbolaget"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "känt till mannens spelproblem"
+      } ]
+    } ]
+  }, {
+    "id" : "073fb68a5e9047528f1e8f5920192086",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:44.120",
+      "out" : "00:00:48.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och ändå riktat aggressiv"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "marknadsföring mot honom."
+      } ]
+    } ]
+  }, {
+    "id" : "360809cc3aff4aa4a23ea1ffb4c633de",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:50.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Den som har drabbats mest"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "är naturligtvis min klient."
+      } ]
+    } ]
+  }, {
+    "id" : "c2347eb0b58e4f5ea83d752ac06ac725",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:54.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "För honom har det varit"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som en evighet, som äntligen tar slut"
+      } ]
+    } ]
+  }, {
+    "id" : "3cf77c49b09140879995666875575d0f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:00:58.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "med den här domen, och dessutom"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "positivt, så det är fantastiskt."
+      } ]
+    } ]
+  }, {
+    "id" : "d7857b5faff342bd828c86aab4946c4b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:02.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Högsta domstolen slår fast"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att spelbolaget Betsson"
+      } ]
+    } ]
+  }, {
+    "id" : "dc03c354df3c4a3684e24ea85227f822",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:05.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "har känt till spelaren Pers"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "allvarliga problem med just spel."
+      } ]
+    } ]
+  }, {
+    "id" : "5c8de361c03f4af78246be9b5ca31cc7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:10.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ändå har bolaget skickat mejl och sms"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "med reklam, uppmanat honom att spela"
+      } ]
+    } ]
+  }, {
+    "id" : "db63abcbe6814b8b87a6d91e0c64ca74",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:15.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och skickat bonusar som"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "skulle spelas upp inom en viss tid."
+      } ]
+    } ]
+  }, {
+    "id" : "5b400c5f73d44932beec8106bd4674e7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:19.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Att sälja tjänster"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och försöka lyckas med sin verksamhet"
+      } ]
+    } ]
+  }, {
+    "id" : "e4e691b24f8847d38ebc8454a48b3de8",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:23.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är naturligtvis vad alla bolag"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vill göra, men här har man utnyttjat"
+      } ]
+    } ]
+  }, {
+    "id" : "e21402bae49646c89627ff467ea62c06",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:27.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "personer som befinner sig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i en svår situation."
+      } ]
+    } ]
+  }, {
+    "id" : "a12b95db9cb3439d816aa5378961340f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:31.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Affärsverksamhet"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ska inte gå ut på det"
+      } ]
+    } ]
+  }, {
+    "id" : "e1da7835bfeb4fd9b2f91860d38a2d27",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:34.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "utan där har man passerat en gräns"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för vad som är acceptabelt."
+      } ]
+    } ]
+  }, {
+    "id" : "cb473da926624b6b9c5c0227bba8a475",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:39.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och det är det som domstolen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "har slagit fast också:"
+      } ]
+    } ]
+  }, {
+    "id" : "2e2398b2c93b42f2b3acd22998e88102",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:42.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det finns en gräns"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för hur långt man kan gå."
+      } ]
+    } ]
+  }, {
+    "id" : "f03ee58e9c68478cb5faa62831678434",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:45.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jörgen Hettne tror"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att domen kan tvinga spelbolag"
+      } ]
+    } ]
+  }, {
+    "id" : "c979b4d921ad4720b92d3ed22f0c82d7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:48.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att agera annorlunda i framtiden."
+      } ]
+    } ]
+  }, {
+    "id" : "db653b57dc864e108df2a055f5a8bdcc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:50.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Den kan också öppna dörren för"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att fler personer i samma situation"
+      } ]
+    } ]
+  }, {
+    "id" : "4e36c3205b1f46e080d0411bcb5106f8",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:54.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "också kan vinna en tvist"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "mot ett spelbolag."
+      } ]
+    } ]
+  }, {
+    "id" : "7151d3ec4a1d4ea4b550629bc0085e5f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:57.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men det kommer inte att vara enkelt."
+      } ]
+    } ]
+  }, {
+    "id" : "2a1bcbcce972406d82be5b3c6e211b8f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:01:59.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är inte så att man kan förlora"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "pengar och sen kräva dem tillbaka."
+      } ]
+    } ]
+  }, {
+    "id" : "e807e00c2681404296cfc81e518711e3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:03.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så enkelt är det inte, utan det krävs"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "väldigt speciella omständigheter."
+      } ]
+    } ]
+  }, {
+    "id" : "ce266a4ac0404fd6b3d83500c8f2e237",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:09.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men det sätter en gräns"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för hur spelbolag kan bete sig."
+      } ]
+    } ]
+  }, {
+    "id" : "a0408f5fb7f440dbbf4646a96c48ba66",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:14.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Man får hålla bättre reda på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vilka som har spelproblem"
+      } ]
+    } ]
+  }, {
+    "id" : "5049a0dee25842a1810035e2e65b04f3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:19.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "innan man går vidare med att hårt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "marknadsföra sig mot de personerna."
+      } ]
+    } ]
+  }, {
+    "id" : "0a8d6d5044a841989057728551844994",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:24.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Betsson avböjer intervju,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "men skriver i ett pressmeddelande"
+      } ]
+    } ]
+  }, {
+    "id" : "d8bfe1d5cae84d7f890fdeb7633ec7c3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:27.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att de är besvikna över domen"
+      } ]
+    } ]
+  }, {
+    "id" : "fca23094356a4bf48fd1cd6f8e6e2d6d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:29.960",
+      "out" : "00:02:35.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och att bolaget sen länge har"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "processer för ansvarsfullt spelande."
+      } ]
+    } ]
+  }, {
+    "id" : "90e86cd1fb854079ad1dd457098b80f5",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:37.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det föds alltför få barn i Sverige."
+      } ]
+    } ]
+  }, {
+    "id" : "c5644ff4323f49948765aee88a806158",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:39.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "De låga födelsetalen oroar regeringen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som nu tillsatt en utredning"
+      } ]
+    } ]
+  }, {
+    "id" : "e68e8f9b2df44fc2a230029e6fb36f44",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:44.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för att förstå varför viljan"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att skaffa barn minskar"
+      } ]
+    } ]
+  }, {
+    "id" : "da8c89bd0607474992655ef14a3432a6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:48.200",
+      "out" : "00:02:51.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och vad som kan göras"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att vända trenden."
+      } ]
+    } ]
+  }, {
+    "id" : "30ffb024a0614cdd901c90c051f23c7c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:52.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "De måste väl se"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "till...att vi ska känna en trygghet."
+      } ]
+    } ]
+  }, {
+    "id" : "bccbc2156e3e40e4bf5088a32545812e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:02:58.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Att minska klyftorna i samhället,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "satsa på skola"
+      } ]
+    } ]
+  }, {
+    "id" : "9782c4f54ad3467f855341f58c022ad6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:04.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och förebyggande åtgärder så att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "man känner mer tilltro, tror jag."
+      } ]
+    } ]
+  }, {
+    "id" : "c4e733f1bf3748919ba0ffb312abe03d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:10.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Antalet födda barn per kvinna"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "var förra året 1,43."
+      } ]
+    } ]
+  }, {
+    "id" : "4a69c19176c1426e8bf3db7b4b0284eb",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:15.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det lägsta sedan Statistiska"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "centralbyrån började mäta."
+      } ]
+    } ]
+  }, {
+    "id" : "111146b3fd744ecea42d6d4ee9cc4cf2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:19.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Nu ska regeringens utredare"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ta reda på vad det här beror på"
+      } ]
+    } ]
+  }, {
+    "id" : "1d8b86cb797f49b18626ec31726108a3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:23.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och föreslå konkreta åtgärder"
+      } ]
+    } ]
+  }, {
+    "id" : "a262d1b2e67f49328cdc2f14fc3dada8",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:25.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för vad regeringen kan göra"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att vända trenden."
+      } ]
+    } ]
+  }, {
+    "id" : "fb179f925bd943809e315a5db055b327",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:29.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Om samhället ska reproducera sig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i nuvarande takt"
+      } ]
+    } ]
+  }, {
+    "id" : "9a898b90c6204415b57cda759112089a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:32.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "bör snittet vara 2,1 barn per kvinna,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "enligt Jakob Forssmed."
+      } ]
+    } ]
+  }, {
+    "id" : "d4a047d4c57c459e82425ca83b096524",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:38.360"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Om barnafödandet inte ökar, eller"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "till och med fortsätta minska..."
+      } ]
+    } ]
+  }, {
+    "id" : "9f84e9bd7e67436eadcdaf30366f5a40",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:42.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–Vilka effekter ser vi då?"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "–Då kommer vi se stora effekter."
+      } ]
+    } ]
+  }, {
+    "id" : "b9ab05d3363546d3ab432e302c15fd2e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:46.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi kommer ha färre arbetade timmar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och sjunkande tillväxttal."
+      } ]
+    } ]
+  }, {
+    "id" : "2329263816bd493db7408f5e84f1f759",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:50.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi kommer ha en generationsobalans"
+      } ]
+    } ]
+  }, {
+    "id" : "eb433410548f4537ba965426404a638f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:53.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "mellan den kommande generationen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och de som är äldre."
+      } ]
+    } ]
+  }, {
+    "id" : "d79929c16f6a4fa29aab201c000f1dbe",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:03:58.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det kommer sätta olika typer av press"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på vårt samhälle."
+      } ]
+    } ]
+  }, {
+    "id" : "e1b9690bcab5437c9196acf1cc18d54e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:03.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det finns många teorier om vad"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som har fått barnafödandet att minska"
+      } ]
+    } ]
+  }, {
+    "id" : "914302a839d84fc998d965e9e836bdf4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:07.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "men inget enkelt svar."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Ofta nämns en global osäkerhet"
+      } ]
+    } ]
+  }, {
+    "id" : "428803175ff040eda8c194853ff4ef4a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:11.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och att man blir allt äldre"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "när man får sitt första barn."
+      } ]
+    } ]
+  }, {
+    "id" : "667a29b5647447cd8d71c38036af30ee",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:16.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag kan tänka mig att det beror på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "hur världen ser ut idag, mycket."
+      } ]
+    } ]
+  }, {
+    "id" : "84b771eab3ed422989ed59408ef21a03",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:22.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Kanske att det är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "lite otryggt i världen"
+      } ]
+    } ]
+  }, {
+    "id" : "509cd42e987849ac9a9c0cc372d3a466",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:26.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och att politikerna"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "skulle kunna göra nånting, liksom."
+      } ]
+    } ]
+  }, {
+    "id" : "c2832f35cf5c48b4b47446092923ed0e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:31.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är väl för att det är högre press"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på karriär och sånt i samhället."
+      } ]
+    } ]
+  }, {
+    "id" : "c4018b1d4a9847d5bb5a823f21cacb01",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:36.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Man vet kanske inte som ung"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vad man ska..."
+      } ]
+    } ]
+  }, {
+    "id" : "2d5fad8a07864268acbc3d5fbe7592a1",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:40.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det kanske är svårare att komma in"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på arbetsmarknaden, så att man senare"
+      } ]
+    } ]
+  }, {
+    "id" : "947aa5cc1ced498d9a5dcca8d3e4ebad",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:44.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "skaffar barn, för att man känner att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "man måste komma igång med karriären."
+      } ]
+    } ]
+  }, {
+    "id" : "0b9b1877f13c4804879b579482b04c29",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:47.960",
+      "out" : "00:04:50.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det gäller både män och kvinnor,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "tror jag."
+      } ]
+    } ]
+  }, {
+    "id" : "4840cf58788c435799f35feff8143d11",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:52.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Flygskatten tas bort idag, vilket gör"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "det billigare att boka flygresor."
+      } ]
+    } ]
+  }, {
+    "id" : "0a57c76c9dd3422bb4776c4924e85bed",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:04:57.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Samtidigt är flera av svenskarnas"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "populäraste resmål i Sydeuropa"
+      } ]
+    } ]
+  }, {
+    "id" : "eb79cf4fd38945fbb52575506b066f91",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:02.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "drabbade av en extrem värmebölja"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "– något som blivit allt vanligare"
+      } ]
+    } ]
+  }, {
+    "id" : "baa54e1e121c4f8483e386014de8e746",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:07.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och som hänger ihop med"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "utsläppen av växthusgaser."
+      } ]
+    } ]
+  }, {
+    "id" : "5eae9b12e926404a998e20ffb6a8a971",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:11.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi har pratat med resenärer"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på Landvetters flygplats"
+      } ]
+    } ]
+  }, {
+    "id" : "b8152727244f4b0ba453257085fe7db3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:14.680",
+      "out" : "00:05:17.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "om hur de ser på skatten"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "– och klimatet."
+      } ]
+    } ]
+  }, {
+    "id" : "6fa930eb454f4ee7a2b3cfd9bba1fa0c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:18.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–Vi är på väg ner till Spanien."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "–Vi är på väg till Sicilien."
+      } ]
+    } ]
+  }, {
+    "id" : "26340709ea604d969c42a85588bde4d9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:22.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–Hur känns det att resa ner i värmen?"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "–Lite obehagligt."
+      } ]
+    } ]
+  }, {
+    "id" : "c9f514a8e80d4596b9bb13f259b0ff1b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:26.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Lite obehagligt är det, men..."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Ja, vi får se. Mycket skugga."
+      } ]
+    } ]
+  }, {
+    "id" : "b0079b7f137d41d5981fbef3eb520fb7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:31.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Att de extrema värmeböljorna ökar"
+      } ]
+    } ]
+  }, {
+    "id" : "049b0d2eaad64a6996751016c8908d29",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:34.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är inte nåt som förändrat svenskarnas"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "beteende i förhållande till klimatet."
+      } ]
+    } ]
+  }, {
+    "id" : "beb89d8561584177941b99157c2990dc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:39.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det menar statsvetaren"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Sverker Carlsson Jagers"
+      } ]
+    } ]
+  }, {
+    "id" : "b837868d652f4fdda4b77d4fae0861b0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:43.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som pekar på att det inte är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ointresse som ligger bakom."
+      } ]
+    } ]
+  }, {
+    "id" : "8b81093529684b0c9f527bfba1269553",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:46.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Många människor tänker att \"det är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "meningslöst att jag ändrar på mig\""
+      } ]
+    } ]
+  }, {
+    "id" : "99f8f580467948da998c407ba7cf02d9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:50.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"om inte alla andra också gör det.\""
+      } ]
+    } ]
+  }, {
+    "id" : "547bda9dc2c847598d043d9782be8976",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:53.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Därför blir det en inlåsningseffekt"
+      } ]
+    } ]
+  }, {
+    "id" : "c20ebe1416a9421f90d8770d054b1354",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:55.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "där alla sitter och väntar på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att andra ska börja."
+      } ]
+    } ]
+  }, {
+    "id" : "705d2f7851404a219033c40c8f2b16e1",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:05:59.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så det är inte att man inte vill"
+      } ]
+    } ]
+  }, {
+    "id" : "00d91ce236d64cdb818385410c54b204",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:01.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "utan att man vill se"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att det har avsedd effekt."
+      } ]
+    } ]
+  }, {
+    "id" : "da0b6a4218e942e4b65762ae4a696959",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:06.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Samtidigt får värmeböljorna"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "svåra konsekvenser."
+      } ]
+    } ]
+  }, {
+    "id" : "52d6abb0fb8746c2a71fc9038d86f6b0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:10.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Att våra utsläpp gör att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "temperaturerna vid värmeböljor ökar"
+      } ]
+    } ]
+  }, {
+    "id" : "f37ed8676af847ab9a3b7d648dfa3b84",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:14.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "till uppemot fyra grader"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "låter kanske inte så farligt"
+      } ]
+    } ]
+  }, {
+    "id" : "813f9e0d0fd844b98fe30c27f3f41446",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:18.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "men påverkan blir stor."
+      } ]
+    } ]
+  }, {
+    "id" : "3d57d343d49a40eb83d102f37be9e9fe",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:21.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag tror man kan tänka på,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som vår kroppstemperatur och feber..."
+      } ]
+    } ]
+  }, {
+    "id" : "f7309a4aa6904c619695dffb2667add6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:26.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "1, 2, 3 grader varmare påverkar oss"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ganska mycket, hur vi mår."
+      } ]
+    } ]
+  }, {
+    "id" : "4b74013abb3a41fb9d9f5b4ca7e525b3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:31.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och samma sak är det ju med klimatet."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "En höjning på några grader"
+      } ]
+    } ]
+  }, {
+    "id" : "97cb4388ecd74096b6fb090af4505db5",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:34.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "gör stor skillnad för vår hälsa"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och vad vi orkar med."
+      } ]
+    } ]
+  }, {
+    "id" : "fdbe0eb36d044fb0abae66c44fbb75ed",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:39.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "2022 var det 60 000 människor"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som dog i värmeböljan i Europa."
+      } ]
+    } ]
+  }, {
+    "id" : "c6de9678bbd649f7834b4deb26fed7b4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:44.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så det får verkligen konsekvenser"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för människors liv."
+      } ]
+    } ]
+  }, {
+    "id" : "3680bf35b7bb439baffafafd9aae08ae",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:47.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och enligt Sverker Carlsson Jagers"
+      } ]
+    } ]
+  }, {
+    "id" : "d7945f466afa4e6682d0871dd9945b0c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:50.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är politiska styrmedel,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som t.ex. flygskatten"
+      } ]
+    } ]
+  }, {
+    "id" : "f1cacb5d3e5b4e69b1d3eedb66f2e6af",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:53.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "ett sätt att få till"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "beteendeförändringar"
+      } ]
+    } ]
+  }, {
+    "id" : "09efaf60f0aa41f09235b33a3142c18f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:56.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som inte går att åstadkomma"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på frivillig väg."
+      } ]
+    } ]
+  }, {
+    "id" : "3d3e6a59ed2a4b72b1d4ec7b4e1174cc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:06:59.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Just av det här skälet"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att man har få incitament"
+      } ]
+    } ]
+  }, {
+    "id" : "413febc373f049bf823e338e7f9483b7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:03.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att som enskild individ"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ändra beteende spontant."
+      } ]
+    } ]
+  }, {
+    "id" : "a6ad0dc09b0c40caae60e47100f3a625",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:08.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Man vill känna en övertygelse"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att andra också ändrar beteende."
+      } ]
+    } ]
+  }, {
+    "id" : "de4b76df66c149f39a2ced89f3805a83",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:14.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag tror det är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en mycket större fråga egentligen."
+      } ]
+    } ]
+  }, {
+    "id" : "a76a83d8e87043deb2d7644f1af8096a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:17.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag tror inte att flyget är största"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "orsaken. Det finns så mycket annat."
+      } ]
+    } ]
+  }, {
+    "id" : "a53c6477338b492cbe1cbcd2616335e0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:21.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Industrier och liknande"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som bolmar ut."
+      } ]
+    } ]
+  }, {
+    "id" : "d7e39e11c81f44cc83ef9760e0a7c706",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:25.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag vet inte hur det ser ut i Kina."
+      } ]
+    } ]
+  }, {
+    "id" : "39666f5999434af8a8550ecb927b99ae",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:28.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Hur mycket avgasrening man har där"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på industrierna"
+      } ]
+    } ]
+  }, {
+    "id" : "554e7a3742874e6b865d08bcded438cd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:31.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "där man producerar och producerar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att vi ska köpa."
+      } ]
+    } ]
+  }, {
+    "id" : "9892b1c280994e01b66bf7e9ed63f0bd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:34.360"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det hade blivit en lång resa"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ner till Spanien"
+      } ]
+    } ]
+  }, {
+    "id" : "1cd89d8eb95d420fb34fa7ed0091c495",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:37.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "om man hade behövt transportera sig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på annat sätt."
+      } ]
+    } ]
+  }, {
+    "id" : "76d52f63ff214344a62fb0110dfad9db",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:41.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ja, jag tänker på det,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "men ibland blir det flyg i alla fall."
+      } ]
+    } ]
+  }, {
+    "id" : "2f38767da833467a8700c205da071160",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:45.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men hur var det nu med flygskatten?"
+      } ]
+    } ]
+  }, {
+    "id" : "17040248636143f9999ffd09a4819a09",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:47.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Hade alla koll på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att den försvinner idag?"
+      } ]
+    } ]
+  }, {
+    "id" : "8614c7f0874b4f03b76fed0ea7e8ae1b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:50.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag hade ingen aning om vad det är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "eller vad det innebär."
+      } ]
+    } ]
+  }, {
+    "id" : "c49e1ddf67d642cd82cfe7455b547890",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:54.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så det var nytt för mig."
+      } ]
+    } ]
+  }, {
+    "id" : "40bc7641f2674f938fa239fa9807fb10",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:07:56.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är slopad flygskatt idag också."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Kände du till det?"
+      } ]
+    } ]
+  }, {
+    "id" : "41aeaea898ab4468a045e6dd1a67dbdf",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:00.520",
+      "out" : "00:08:06.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det hade jag ingen aning om."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Men har de slopat det idag? Okej."
+      } ]
+    } ]
+  }, {
+    "id" : "296070e319c640ad8f648038bb4ac45e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:09.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Sydeuropa är fortsatt drabbat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "av extrem hetta."
+      } ]
+    } ]
+  }, {
+    "id" : "1e1d6118cc9a4d32a8a31d74b28e457a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:13.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och på flera håll gör människor"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vad de kan för att kyla ner sig."
+      } ]
+    } ]
+  }, {
+    "id" : "7a2ce0a4ef884606838d3dc7515c7be2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:18.280",
+      "out" : "00:08:24.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I Spanien träffar vår reporter några"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som valt poolen – framför planen."
+      } ]
+    } ]
+  }, {
+    "id" : "806dcbaf5d2e4f1aa99d4c7f266702fd",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:24.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag arbetar för en fotbollsklubb."
+      } ]
+    } ]
+  }, {
+    "id" : "4ea0910d460d400bbf2b1bb803dba908",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:27.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är 40 grader varmt utomhus"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "så barnen kan inte spela så mycket fotboll."
+      } ]
+    } ]
+  }, {
+    "id" : "1e0d53ea804b409db3df60f6720aa449",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:33.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "De är trötta på grund av hettan."
+      } ]
+    } ]
+  }, {
+    "id" : "f59ddba4887c419488b4e064da4b5079",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:37.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så vi kommer hit"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att ha kul och bara leka."
+      } ]
+    } ]
+  }, {
+    "id" : "740b9fcee555401283ec3386c4ce044e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:41.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Utomhusbadet i Lleida"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "är extra populärt nu."
+      } ]
+    } ]
+  }, {
+    "id" : "d97fcb80284c48d7b983a2c4840e2329",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:45.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "På grund av hettan"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "har öppettiderna förlängts."
+      } ]
+    } ]
+  }, {
+    "id" : "923ba1fae4b448709ad927ea1d621507",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:48.840",
+      "out" : "00:08:53.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det finns också kommunala lokaler"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "dit man kan gå för att svalka sig."
+      } ]
+    } ]
+  }, {
+    "id" : "d20069d0f0b4432c85759b039cd74107",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:08:57.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Borgmästaren passar på att informera"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "om ett EU-finansierat projekt"
+      } ]
+    } ]
+  }, {
+    "id" : "671181b75c2544d8b06f309752b3e5c6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:02.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "där staden planterar träd"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att minska halten av koldioxid"
+      } ]
+    } ]
+  }, {
+    "id" : "9fd33236953847f39e7faf5d24fb3b84",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:07.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och få ner temperaturen."
+      } ]
+    } ]
+  }, {
+    "id" : "852590b4234f45f99607db81fb698762",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:09.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi tog bort en parkeringsplats"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och planterade träd där."
+      } ]
+    } ]
+  }, {
+    "id" : "3d94d16a9ea44c52975746b7e302f141",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:16.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är den förändring vi vill se i staden,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och träden är väldigt viktiga."
+      } ]
+    } ]
+  }, {
+    "id" : "546a36188e934bdcb18633d83e9cedae",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:23.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I framtiden blir det tropiskt klimat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i regionen pga klimatförändringarna."
+      } ]
+    } ]
+  }, {
+    "id" : "dd01b990e40d47e3b59e566bec612657",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:29.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är nåt som många tänker på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "redan nu."
+      } ]
+    } ]
+  }, {
+    "id" : "a4c1f9ad74bb4459abe77e5a0252e0ea",
+    "kind" : "S(es>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:33.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det har varit varmare i år"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "än nånsin tidigare."
+      } ]
+    } ]
+  }, {
+    "id" : "ceb33063b2674872bd02bb6a5370d4a8",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:37.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi är mitt i en region"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som domineras av jordbruk."
+      } ]
+    } ]
+  }, {
+    "id" : "3f6c55beea0d49d980065bbac229e427",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:42.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Åkrarna bevattnas genom en kanal."
+      } ]
+    } ]
+  }, {
+    "id" : "e8825c281ddf4256881b4f045e24284f",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:46.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I ett tropiskt klimat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ökar temperaturen och avdunstningen–"
+      } ]
+    } ]
+  }, {
+    "id" : "67e27b2144b24343b32a9d890b6f8429",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:51.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–och då behöver grödorna mer vatten."
+      } ]
+    } ]
+  }, {
+    "id" : "8567992f52b34ae3b192b04dfebe6c71",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:09:54.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–Hur pass oroande är situationen?"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "–Den är mycket oroande."
+      } ]
+    } ]
+  }, {
+    "id" : "af882072111b4f45918be721e9905a56",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:00.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Förändringarna kommer lite i taget"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "men vi vet inte exakt–"
+      } ]
+    } ]
+  }, {
+    "id" : "5b1b44efa8144de48d875c8599b9d031",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:04.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–så det råder osäkerhet när det gäller"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "den här processens omfattning."
+      } ]
+    } ]
+  }, {
+    "id" : "72458cf5af314e03b62f725b100b982e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:12.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Här på sjukhuset har man fått"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en del problem."
+      } ]
+    } ]
+  }, {
+    "id" : "d3222728d7ee4a8fbd70fe9bc869724c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:15.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I vissa rum där patienter vårdas har"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "luftkonditioneringen gått sönder."
+      } ]
+    } ]
+  }, {
+    "id" : "5bad13ed87124388bc30fc638ae2dbbf",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:20.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är 28 grader i de rummen."
+      } ]
+    } ]
+  }, {
+    "id" : "7fc322e0f14949e78a3a72032ffd2dd3",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:23.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vad kan vi göra?"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Jo, vi kan investera i sjukhus och skolor–"
+      } ]
+    } ]
+  }, {
+    "id" : "513829dc66fc417bae6d9d2cd6e65425",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:31.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–för att skydda dem som är i behov"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "av sådana anläggningar."
+      } ]
+    } ]
+  }, {
+    "id" : "223bfa6d0b7e4d9485d1c1a282dcf335",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:36.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är flera områden som kan förbättras"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vad gäller bekvämligheter."
+      } ]
+    } ]
+  }, {
+    "id" : "47365f61fad14305b441fbcefc087399",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:42.360"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Klimatförändringar är inte bra alls,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vi måste göra nåt åt det."
+      } ]
+    } ]
+  }, {
+    "id" : "9abcd4eb561f45e6b4c10c9b158793bc",
+    "kind" : "S(en>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:48.040",
+      "out" : "00:10:54.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "En person klarar det inte,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "utan vi måste alla göra det tillsammans."
+      } ]
+    } ]
+  }, {
+    "id" : "3ea83a90d1a24815a87e1256ed643d79",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:10:59.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Även på flera andra håll i Europa"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "är det höga temperaturer."
+      } ]
+    } ]
+  }, {
+    "id" : "f12e0d4d2a9841abae911125ba242c64",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:04.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I Frankrike har en röd varning,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vilket är den högsta för värme"
+      } ]
+    } ]
+  }, {
+    "id" : "c721c83274be46869b4626456f9a1c27",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:08.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "utfärdats i 16 regioner."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "För att underlätta i hettan"
+      } ]
+    } ]
+  }, {
+    "id" : "904ca912409e46918aa258f0ef2d4e59",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:12.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "ska 30 000 vattenflaskor"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "delas ut i Paris kollektivtrafik."
+      } ]
+    } ]
+  }, {
+    "id" : "d33bf9f52ef14758ae55af47c59e12ce",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:17.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Samtidigt är Eiffeltornet"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "stängt för turister"
+      } ]
+    } ]
+  }, {
+    "id" : "e86119bdf8e740a78276b6f9144beb2c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:20.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och runt om i landet hålls ca 1 350"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "skolor helt eller delvis stängda."
+      } ]
+    } ]
+  }, {
+    "id" : "557acd366c34432e8f860ef3fd3081a2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:25.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I Italien har två dödsfall"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "rapporterats till följd av värmen"
+      } ]
+    } ]
+  }, {
+    "id" : "a4c8cea4a8a94037a86f43799083e806",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:29.000",
+      "out" : "00:11:30.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "enligt brittiska BBC."
+      } ]
+    } ]
+  }, {
+    "id" : "584baf67cfa94140b8bb558f93d05a32",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:34.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Redan vid 20 plusgrader"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "börjar dödligheten öka"
+      } ]
+    } ]
+  }, {
+    "id" : "2586f5b955d2492386247d77e2f17735",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:38.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och vid 30 grader"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "når man en kritisk nivå."
+      } ]
+    } ]
+  }, {
+    "id" : "42623db5c38e4b41be2c8a5bc8886eb9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:42.600",
+      "out" : "00:11:47.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det säger klimatforskaren Christofer"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Åström vid Umeå Universitet."
+      } ]
+    } ]
+  }, {
+    "id" : "d0b84ad47afa40aa9a917adacb61a2c7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:48.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Våra studier har visat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att redan vid 20 grader"
+      } ]
+    } ]
+  }, {
+    "id" : "559af21ece5541ba9e7e27f56f70ffc1",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:51.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "så börjar den värmerelaterade"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "dödligheten öka – långsamt i början"
+      } ]
+    } ]
+  }, {
+    "id" : "0fa761eeef1745aea90a0ec840b1d3b0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:11:56.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och snabbare och snabbare"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ju varmare det blir."
+      } ]
+    } ]
+  }, {
+    "id" : "b763371d85474e29b9124b3611cfd077",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:00.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "När det blir kritiskt?"
+      } ]
+    } ]
+  }, {
+    "id" : "9522a0c3612047319ccf3cd67b749157",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:02.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ökar temperaturen sedan till över 30"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "tre dagar i rad"
+      } ]
+    } ]
+  }, {
+    "id" : "b3feee6a794a4640b7fb6e008da414dd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:06.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "så ser vi ökningar på ungefär 20 %"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "av den dagliga dödligheten."
+      } ]
+    } ]
+  }, {
+    "id" : "0854073a7ddf49a4842b1498806f8938",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:11.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men det skiljer också i landet?"
+      } ]
+    } ]
+  }, {
+    "id" : "6911f929e6b14e419c6d4cce27b5ee89",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:14.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ja, det verkar som att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "man vid samma temperatur i Norrland"
+      } ]
+    } ]
+  }, {
+    "id" : "7c1a2215c0a74851bd4f0a2fa6f50f90",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:19.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "ser en större effekt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på den dagliga dödligheten"
+      } ]
+    } ]
+  }, {
+    "id" : "c0c2bd7e6ae54296b399a43656c8eab9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:22.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "om man jämför med södra Sverige."
+      } ]
+    } ]
+  }, {
+    "id" : "7ccf16893b834516b513d7af654f18e1",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:24.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–Vad beror det på?"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "–Vi hade länge ett stabilt klimat."
+      } ]
+    } ]
+  }, {
+    "id" : "9aab30d18d144c2d9b466c8b67478cb0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:27.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I Norrland är vi vana"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vid kallare temperaturer"
+      } ]
+    } ]
+  }, {
+    "id" : "4b008d06c1c64f3c98a82fe9afc0f3c7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:31.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och de i söder är mer vana"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vid varma temperaturer."
+      } ]
+    } ]
+  }, {
+    "id" : "2c2c28f1c4ff42e1b07be2884a0a26ad",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:35.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Går det att anpassa samhället"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "efter det klimatet?"
+      } ]
+    } ]
+  }, {
+    "id" : "fee4c65772954571af7ab2e6daba4118",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:39.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ett sätt att göra det på är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att öka andelen träd i städerna."
+      } ]
+    } ]
+  }, {
+    "id" : "ccf4a3b7e461416ca2f74155ed24c1c0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:43.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi har kunnat se i studier"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att andelen krontäckning i städer"
+      } ]
+    } ]
+  }, {
+    "id" : "46f6c6c7e8214d01bc15e50bbf2c1693",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:48.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "påverkar markant"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "hur befolkningen dör i värmeböljor."
+      } ]
+    } ]
+  }, {
+    "id" : "9cc02d888a3049dfb4ff944715bf5216",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:54.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vad har du för råd nu"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att klara värmen?"
+      } ]
+    } ]
+  }, {
+    "id" : "8be745ce312f44e0b56775b620edad75",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:12:56.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Duscha svalt, dricka mycket,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "söka skugga..."
+      } ]
+    } ]
+  }, {
+    "id" : "39c8c68f0bce46f0a22479c3423c9fc0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:00.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Sen gäller det också att vädra"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på dygnets svala timmar"
+      } ]
+    } ]
+  }, {
+    "id" : "02b65f967c604eb49fc98d219561c43d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:03.800",
+      "out" : "00:13:06.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för att kunna få en god natts sömn."
+      } ]
+    } ]
+  }, {
+    "id" : "05c8ea09617d47c693e1bfbb0e5c507d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:07.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "En man har anhållits"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "misstänkt för skadegörelse"
+      } ]
+    } ]
+  }, {
+    "id" : "e3dacd4d0b6642ec9311e06ce75c41e2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:10.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "mot ett flertal bensinstationer"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i Älvsborg."
+      } ]
+    } ]
+  }, {
+    "id" : "69c0f78c23f546b8ad41a20197f7b419",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:13.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det var under helgen som ett tiotal"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "tankstationer i Borås, Alingsås"
+      } ]
+    } ]
+  }, {
+    "id" : "8cebee5c69d7493196c96e974fb6dca3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:18.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Lerum och Vårgårda"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "utsattes för skadegörelse."
+      } ]
+    } ]
+  }, {
+    "id" : "ebfab20c3b324f32bc905abd9be5f709",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:21.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Mannen,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som fångats på övervakningsfilmer"
+      } ]
+    } ]
+  }, {
+    "id" : "f1d30a9243d24585a1ce235128a988b3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:24.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "från ett flertal brottsplatser,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "greps igår kväll."
+      } ]
+    } ]
+  }, {
+    "id" : "266c12683453479caf63bc0b1c3d0b65",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:27.640",
+      "out" : "00:13:31.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Han är sedan tidigare ostraffad"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och okänd av polisen."
+      } ]
+    } ]
+  }, {
+    "id" : "8b4e54e30d6d42859c9966c11f7e9920",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:33.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det var tack vare övervakningskameror"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som vi kunde identifiera personen."
+      } ]
+    } ]
+  }, {
+    "id" : "94736dde98944409891bdac27f073a6a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:37.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det var övervakningskameror"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på flera av de här brottsplatserna."
+      } ]
+    } ]
+  }, {
+    "id" : "885f74654764453d88a794d64c7b05ec",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:41.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det pågår fortsatt ett stort arbete"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och ett stort pussel som ska läggas."
+      } ]
+    } ]
+  }, {
+    "id" : "22400158d3fd4273bcbe0ee35f69e117",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:47.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi har nått en viktig punkt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "där vi har gripit en person"
+      } ]
+    } ]
+  }, {
+    "id" : "01cc521b97a2448689eef18f78550a45",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:51.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "men arbetet stannar inte här,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "utan vi kommer fortsätta"
+      } ]
+    } ]
+  }, {
+    "id" : "33d98370e159441d913bb6cec44c077f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:54.440",
+      "out" : "00:13:57.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "med flera utredningsåtgärder"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "– det är mycket som återstår."
+      } ]
+    } ]
+  }, {
+    "id" : "379705c0bf12471c84877a086b404686",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:13:58.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Idag blir det dyrare för de"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som behöver receptbelagda mediciner"
+      } ]
+    } ]
+  }, {
+    "id" : "416037e3de964ed592b32fe1333b0c36",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:03.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "eftersom gränsen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för högkostnadsskyddet"
+      } ]
+    } ]
+  }, {
+    "id" : "0327ed200d074fd2ad7f09097ce7e63f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:06.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "höjs från 2 900 kronor"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "till 3 800 kronor per år."
+      } ]
+    } ]
+  }, {
+    "id" : "2911fc90540547aebee75f647c8b4a63",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:09.720",
+      "out" : "00:14:13.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Något som oroar både läkare och"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "boende i Biskopsgården i Göteborg."
+      } ]
+    } ]
+  }, {
+    "id" : "16c79b69ac5a4694be5bbb8e6fe5fbbd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:16.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag tycker det är uselt."
+      } ]
+    } ]
+  }, {
+    "id" : "93ba07e8c9ea4a838b8ff9631243cd0a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:19.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det finns folk"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som inte har så mycket pengar"
+      } ]
+    } ]
+  }, {
+    "id" : "219c78cc8bf64a03abce097398220c59",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:22.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som inte kan betala för sin medicin,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och då måste de offra antingen maten"
+      } ]
+    } ]
+  }, {
+    "id" : "d150e9eb430d4ae380d6300a73c81afa",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:29.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för att kunna betala medicinen,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "eller tvärtom."
+      } ]
+    } ]
+  }, {
+    "id" : "768e357e7ce74f93b56bbd4786d740f5",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:32.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi vill ha råd med vård!"
+      } ]
+    } ]
+  }, {
+    "id" : "6c59ec170bce4e1fb0cae5e56f9a82c6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:35.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Den nya lagändringen har kritiserats"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "av flera instanser och organisationer"
+      } ]
+    } ]
+  }, {
+    "id" : "7bf05abe4ea543f3b2b3ad0066db57bc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:41.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "redan under remisstiden."
+      } ]
+    } ]
+  }, {
+    "id" : "8d7328d6c29e4616bc8d09946aca3785",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:43.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Risken, enligt kritikerna,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "är att personer med låga inkomster"
+      } ]
+    } ]
+  }, {
+    "id" : "9fd075202dc0485da754aa43e5e5a705",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:47.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "inte kommer att ha råd"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "eller vilja ta ut medicin."
+      } ]
+    } ]
+  }, {
+    "id" : "5c2d624b6a144ca4ba0249a614867370",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:51.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det här är något som läkaren Sami"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Al-Eesa sett redan innan höjningen."
+      } ]
+    } ]
+  }, {
+    "id" : "86302fa2823146fca609156759596643",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:56.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Den första frågan, oftast,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "när jag skriver ut en medicin är:"
+      } ]
+    } ]
+  }, {
+    "id" : "8080618a5a864ac7810ada398e3f6b3d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:14:59.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"Vad kostar medicinen?\""
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Det är nummer ett."
+      } ]
+    } ]
+  }, {
+    "id" : "684971565aa04b78ac7ebb5b34924d24",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:03.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"Kan jag ha en billigare variant"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "av den här medicinen?\""
+      } ]
+    } ]
+  }, {
+    "id" : "e92a530a40a4486cb87bf7c52d7eb5ec",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:07.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag har haft patienter"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som behövt ta ut faktura på apoteket"
+      } ]
+    } ]
+  }, {
+    "id" : "5f8ca155090e4150aa4dc596a5991ce1",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:12.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "redan innan den här höjningen."
+      } ]
+    } ]
+  }, {
+    "id" : "08d14c9938084172a6fa7446a9ec71b4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:14.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och andra som väljer"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att inte plocka ut medicinen."
+      } ]
+    } ]
+  }, {
+    "id" : "1b2da103cd54497aba3cd7086d039588",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:19.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"Jag har inte råd."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Jag väljer att vara utan medicinen.\""
+      } ]
+    } ]
+  }, {
+    "id" : "95274031c35145b1a59b3d9c99d92a71",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:22.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Bland boende i Biskopsgården"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "har höjningen lett till oro."
+      } ]
+    } ]
+  }, {
+    "id" : "576314ac61fa47f09b351c2c1d6c0ba2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:27.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag är diabetiker."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Jag kan inte spara in på mat"
+      } ]
+    } ]
+  }, {
+    "id" : "53be6f3debfa4b53b7369c1f3091251e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:30.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för jag måste äta och ta insulin."
+      } ]
+    } ]
+  }, {
+    "id" : "57e1a453656a4ff4ab50c99ff1a3b78d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:32.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Äter jag inte och inte tar insulin"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "så mår jag dåligt."
+      } ]
+    } ]
+  }, {
+    "id" : "70df1275c9664156baf078179c271e18",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:35.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det kommer påverka mig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "väldigt mycket."
+      } ]
+    } ]
+  }, {
+    "id" : "bdf94770d3dc4abda4dbdeea21a01116",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:38.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är mycket pengar för de som är"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "sjuka och de som kanske inte har råd."
+      } ]
+    } ]
+  }, {
+    "id" : "8a6afb5803ef4481b5296ecb002433bc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:44.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så det blir ju svårare för dem."
+      } ]
+    } ]
+  }, {
+    "id" : "6240836878464932ab180f1e287b3a23",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:47.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men enligt regeringen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "är höjningen nödvändig"
+      } ]
+    } ]
+  }, {
+    "id" : "6f646fa4925f4d79b9cb939ba3b8a89d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:51.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "för att klara en långsiktig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "finansiering av läkemedelssystemet."
+      } ]
+    } ]
+  }, {
+    "id" : "0eef93d658474f89b825aa561eb33355",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:55.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är ett tufft beslut."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Det är inte önskvärt"
+      } ]
+    } ]
+  }, {
+    "id" : "d0b3d9c22b434da69db0f5bf0baacf4e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:15:58.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att man ska behöva höja"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "egenavgifterna, men bakgrunden är ju"
+      } ]
+    } ]
+  }, {
+    "id" : "f941d15d5d0d4d9e9ca0700ae42523b5",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:01.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att läkemedelskostnaderna har ökat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "så mycket och fortsätter öka."
+      } ]
+    } ]
+  }, {
+    "id" : "a50325566c804b5a99b330f8df866b2b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:05.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Kan du se vilka sjukdomar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som riskerar att bli obehandlade?"
+      } ]
+    } ]
+  }, {
+    "id" : "d2099393b52a4b82a86c26e02d68b562",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:10.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är framförallt diabetes"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och blodtrycksmediciner"
+      } ]
+    } ]
+  }, {
+    "id" : "8b0e6c4e3a2f439bb9cac4cc1978909a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:13.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som vi har sett att patienten ibland"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "har valt att seponera på egen hand."
+      } ]
+    } ]
+  }, {
+    "id" : "cc1458c27bdb4f089a78cc26065585a6",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:18.520",
+      "out" : "00:16:23.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"Den kan jag avstå från"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "då jag inte har råd denna månad.\""
+      } ]
+    } ]
+  }, {
+    "id" : "538ea3a77dda44caa1484207050bf486",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:23.280",
+      "out" : "00:16:24.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "råd denna månad."
+      } ]
+    } ]
+  }, {
+    "id" : "95259ebd506b487681a71df251f77cf9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:27.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Den amerikanska senaten har idag"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "röstat igenom president Donald Trumps"
+      } ]
+    } ]
+  }, {
+    "id" : "5edf06b6bdac49c8aad17195363d4606",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:32.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "budgetförslag, som han själv kallat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "One Big Beautiful Bill."
+      } ]
+    } ]
+  }, {
+    "id" : "3dae24fcbb424729bc1a65148093dcad",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:36.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det ekonomiska paketet, som både"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "demokrater och en del republikaner"
+      } ]
+    } ]
+  }, {
+    "id" : "daa12d47f0154f63a07d47e405a2577a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:42.120",
+      "out" : "00:16:44.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "motsatt sig, innebär stora"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "förändringar inom amerikansk politik"
+      } ]
+    } ]
+  }, {
+    "id" : "9d5f943c38f64274bc5140d55be274e4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:45.080",
+      "out" : "00:16:48.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "med både skattesänkningar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och ökad statsskuld."
+      } ]
+    } ]
+  }, {
+    "id" : "b7abd3a26c544a49a397abc3ad56d136",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:48.240",
+      "out" : "00:16:49.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "ökad statsskuld med oss nu från"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Pennsylvania, USA Regina Svedberg"
+      } ]
+    } ]
+  }, {
+    "id" : "1b4c70aa3fb64a18ab661f40621f58ba",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:49.840",
+      "out" : "00:16:51.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ågren."
+      } ]
+    } ]
+  }, {
+    "id" : "23476e7d896445a8a8d88bacedeb3d07",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:51.400",
+      "out" : "00:16:55.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ända in i det sista Regina så var"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "oklart huruvida det här förslaget"
+      } ]
+    } ]
+  }, {
+    "id" : "153e777a985649989034976b314907d7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:55.880",
+      "out" : "00:16:59.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "skulle godkännas berätta."
+      } ]
+    } ]
+  }, {
+    "id" : "8bf61c98c28e469eb191467a73ee036e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:16:59.600",
+      "out" : "00:17:04.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ja, det här har ju varit en riktig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "nattmangling. Det har debatterats och"
+      } ]
+    } ]
+  }, {
+    "id" : "a654ed17b801416da31f8febb7262df9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:04.200",
+      "out" : "00:17:09.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "det har röstats i omgångar i över 24"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "timmar hela natten. Alltså och det"
+      } ]
+    } ]
+  }, {
+    "id" : "8a06fc00828f4137aa092a17d457b32f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:09.600",
+      "out" : "00:17:14.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som avgjorde det här, det var att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vicepresidenten jad D vans kom in och"
+      } ]
+    } ]
+  }, {
+    "id" : "7903af9e18514ab5b0715c1b76df33fd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:15.000",
+      "out" : "00:17:19.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "fällde den utslagsrösten för att få"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "igenom det här förslaget. För det var"
+      } ]
+    } ]
+  }, {
+    "id" : "936bc4a87ac94596ad870dc8c7b32f30",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:19.240",
+      "out" : "00:17:23.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "vissa inom republikanerna som var ja,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "dom var inte riktigt med på tåget."
+      } ]
+    } ]
+  }, {
+    "id" : "bbebb17e75594267abc63ba40193fd12",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:23.720",
+      "out" : "00:17:28.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Men nu har den gått igenom och med"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "väldigt, väldigt knapp marginal. Och"
+      } ]
+    } ]
+  }, {
+    "id" : "3b27714287c146a2823acb16c95de22d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:28.400",
+      "out" : "00:17:31.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "varför var det då så viktigt för"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Trump att få igenom det här innan den"
+      } ]
+    } ]
+  }, {
+    "id" : "3455c7884f2b4d7a8479a3fc1bc50acd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:32.000",
+      "out" : "00:17:34.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "4 juli?"
+      } ]
+    } ]
+  }, {
+    "id" : "36fb6896ff2144e2a7f02fc840c0c5b9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:35.000",
+      "out" : "00:17:39.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ja, men dels så handlar det här om"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att det är symboliskt viktigt med den"
+      } ]
+    } ]
+  }, {
+    "id" : "8bae1ff510f5462e9063503da983c334",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:39.680",
+      "out" : "00:17:44.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "4 juli. Det är liksom patriotiskt."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Det är ju nationaldagen den 4 juli."
+      } ]
+    } ]
+  }, {
+    "id" : "316de7dda252418f8e25000f7016501f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:44.520",
+      "out" : "00:17:48.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Sen så handlar det om att om man får"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en igenom det här innan semestern ja"
+      } ]
+    } ]
+  }, {
+    "id" : "7b8cdb4329b040588e7b278a9f95e580",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:48.600",
+      "out" : "00:17:53.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "då undviker han vissa snårigheter som"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "gör att du skulle dra ut på tiden."
+      } ]
+    } ]
+  }, {
+    "id" : "9ca93b58b86c4d278758f9d48a030dc7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:54.120",
+      "out" : "00:17:57.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det blir mer effektivt för honom, men"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "sen så framförallt så är det ju så"
+      } ]
+    } ]
+  }, {
+    "id" : "b351838ca25144cc81d08e2224cca845",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:17:57.920",
+      "out" : "00:18:03.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att han har ju med sig nu ytterligare"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en seger i ryggen inför höstens"
+      } ]
+    } ]
+  }, {
+    "id" : "b754f600094145d1afdec90dedf5be14",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:03.440",
+      "out" : "00:18:05.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "mellanårsval nu."
+      } ]
+    } ]
+  }, {
+    "id" : "0d869a08b18f462984706f7578d0efd8",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:05.280",
+      "out" : "00:18:10.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Varan beslutet i Högsta domstolen om"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att dom federala domstolarna inte kan"
+      } ]
+    } ]
+  }, {
+    "id" : "fdb1d06661554ff7a835ea36e4fc7a79",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:10.680",
+      "out" : "00:18:17.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "gå emot honom. Han har 5 % målen i"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Nato. Han har det han själv tycker är"
+      } ]
+    } ]
+  }, {
+    "id" : "0a4d602e725143ccb7323b4bb0ffd20a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:17.520",
+      "out" : "00:18:21.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "dom lyckade bombningarna i Iran och"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "sen så har han det här också och det"
+      } ]
+    } ]
+  }, {
+    "id" : "61d4665b3df444768ef6e6ae66f336ec",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:21.600",
+      "out" : "00:18:26.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "stärker honom inför mellanårsvalet i"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "höst. Mycket kort bara Regina, vad"
+      } ]
+    } ]
+  }, {
+    "id" : "6b6b68be325445589b7613a4112d4c74",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:26.720",
+      "out" : "00:18:30.360"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "får det här paketet för konsekvenser"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för amerikanerna?"
+      } ]
+    } ]
+  }, {
+    "id" : "4ef97ce1076c4413bfb74efab7504295",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:32.080",
+      "out" : "00:18:36.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ja, det är ju stora skattesänkningar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "då, då menar man att det här kommer"
+      } ]
+    } ]
+  }, {
+    "id" : "6d26ff63a15b466f85dba2c1cdde2433",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:36.480",
+      "out" : "00:18:41.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "ju då att gynna dom som är medel och"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "höginkomsttagare och slå emot dom som"
+      } ]
+    } ]
+  }, {
+    "id" : "acc07b7270f84b02beb6be7d3ae99849",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:41.320",
+      "out" : "00:18:45.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är fattiga. Bland annat så kommer man"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och man skär i medicare för att kunna"
+      } ]
+    } ]
+  }, {
+    "id" : "b61b9b9fae684a51a163fbd28b265ba3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:45.800",
+      "out" : "00:18:49.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "finansiera en del utav dom här."
+      } ]
+    } ]
+  }, {
+    "id" : "374c1aee8ea44b3aae7e2fc36c810ea9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:49.280",
+      "out" : "00:18:55.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Reformerna, det är mer pengar till"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "försvaret. Sen så är det också så att"
+      } ]
+    } ]
+  }, {
+    "id" : "363bbe4ed2114bbf82e48ea8aa972b1a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:18:56.000",
+      "out" : "00:19:01.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "det kommer att menare experter bygga"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på den amerikanska statsskulden."
+      } ]
+    } ]
+  }, {
+    "id" : "6a0828c22d404a95b2a1aa6547a8fd80",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:01.880",
+      "out" : "00:19:04.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Tack för det Regina med oss direkt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "från USA tillsammans med"
+      } ]
+    } ]
+  }, {
+    "id" : "554b14bca0e94a1a882a7d30e6287db0",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:07.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I Gaza saknas över 11 000 personer"
+      } ]
+    } ]
+  }, {
+    "id" : "c3adaa6b7e054ddcb2464e2cfc22b1a9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:09.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "sedan kriget med Israel bröt ut"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i oktober 2023."
+      } ]
+    } ]
+  }, {
+    "id" : "e5f11704c5114f54b2abf6deafcdd062",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:13.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det visar nya siffror från FN, som"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "hänvisar till palestinska myndigheter."
+      } ]
+    } ]
+  }, {
+    "id" : "f0a73ff0c4324834b05449c1f7ac31d7",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:18.280",
+      "out" : "00:19:22.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Nu har en organisation bildats"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att söka efter de saknade."
+      } ]
+    } ]
+  }, {
+    "id" : "17c06560061d4e88a042733fd8a81537",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:29.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag letar efter min försvunne bror"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Hadi Hawas."
+      } ]
+    } ]
+  }, {
+    "id" : "d257abb6bb2b49f3a5b5077655d44db6",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:33.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag letar varje dag från morgon till kväll."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Kanske lyckas jag hitta honom."
+      } ]
+    } ]
+  }, {
+    "id" : "62875d062d564c31bfdb228606fc10f2",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:39.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag har printat ut foton av honom,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "klistrar upp dem och frågar folk på gatorna."
+      } ]
+    } ]
+  }, {
+    "id" : "98d4ef956112486fbf81e5019d0cf1df",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:44.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Jag ber Gud att hjälpa mig hitta honom."
+      } ]
+    } ]
+  }, {
+    "id" : "13e22c270e9944058260fd3c4b8b05cc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:49.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Enligt Palestinska"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "statistiska centralbyrån"
+      } ]
+    } ]
+  }, {
+    "id" : "423dfa33472f44cfb72efa0fe0160434",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:52.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "saknas över 11 000 Gazabor"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "sen krigets utbrott."
+      } ]
+    } ]
+  }, {
+    "id" : "2af29804d1a84e06a3cea00e3cf31339",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:19:56.920"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "En del har troligen dödats, men"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "lokala människorättsorganisationer"
+      } ]
+    } ]
+  }, {
+    "id" : "2c2a298cadc44ca79f83e629251f57c4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:01.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "tror också att en del befinner sig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i israeliska fängelser."
+      } ]
+    } ]
+  }, {
+    "id" : "1cdf17d7abf74784981d257409c5a430",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:05.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Lokala rapporter visar också"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att dussintals palestinier"
+      } ]
+    } ]
+  }, {
+    "id" : "b8a0e6c1f6c9429ba7a1450dc5916a87",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:09.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "försvunnit när de försökt ta sig"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "till matdistributionscentraler."
+      } ]
+    } ]
+  }, {
+    "id" : "9d83b10531f745ec9c3c1f5eb519b173",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:13.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ghazi Al-Majdalawi har grundat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en organisation för att hjälpa folk"
+      } ]
+    } ]
+  }, {
+    "id" : "a4c9e89eb8394201972e6c4a9e59ad78",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:17.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att få information"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "om sina försvunna familjemedlemmar."
+      } ]
+    } ]
+  }, {
+    "id" : "b3baaf6323d44984b042c73dbced72e8",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:21.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "I med Israels krig i Gaza och de fortsatta"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "markoperationerna och intrången–"
+      } ]
+    } ]
+  }, {
+    "id" : "541ea046f3f3457199c65417938ff611",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:29.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–har det blivit allt svårare"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att söka efter försvunna personer på fältet."
+      } ]
+    } ]
+  }, {
+    "id" : "4e41c6bcee244af0b982b908014ac140",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:36.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Därför har vi skapat"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en elektronisk plattform–"
+      } ]
+    } ]
+  }, {
+    "id" : "d2d35931ee574478a2875802254b5c31",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:40.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–där medborgarna kan registrera"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "sina försvunna anhöriga."
+      } ]
+    } ]
+  }, {
+    "id" : "933aa7c3b03a429e9d743e1096a2013f",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:45.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi verifierar, granskar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och publicerar uppgifterna."
+      } ]
+    } ]
+  }, {
+    "id" : "ee99d8b74ddc405d9467302fadfa0b8c",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:48.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ghazi Al-Majdalawi säger"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att då Israel förbjudit"
+      } ]
+    } ]
+  }, {
+    "id" : "6e28a04dcee2469d8616784769cbc763",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:52.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "införseln av material"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att genomföra DNA-test"
+      } ]
+    } ]
+  }, {
+    "id" : "e12e5b6226424ae38f3dbe6dc1880e8a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:55.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är det också svårt att identifiera"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "dem som dödats i attacker."
+      } ]
+    } ]
+  }, {
+    "id" : "81fb71352f834cfd9519a928f6584779",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:20:59.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Hundratals, kanske tusentals,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "människor har dödats–"
+      } ]
+    } ]
+  }, {
+    "id" : "7411dd92ee51412a841e78694db6ace1",
+    "kind" : "S(ar>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:06.120",
+      "out" : "00:21:11.560"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–och räddningsteamen"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "har inte kunnat identifiera dem."
+      } ]
+    } ]
+  }, {
+    "id" : "1a7ade75172644b98bbfc898394657c5",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:12.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "1 juli år 2000 invigdes Öresundsbron"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "mellan Sverige och Danmark."
+      } ]
+    } ]
+  }, {
+    "id" : "3c5f2074032a4788b8575b31bad20145",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:17.240",
+      "out" : "00:21:22.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Därmed fyller bron idag 25 år –"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "något som firades med kungligt besök."
+      } ]
+    } ]
+  }, {
+    "id" : "6924fc3639e54a8d905834c3b507b40e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:26.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Med bron så har ju Sverige"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och Danmark förts närmare varandra."
+      } ]
+    } ]
+  }, {
+    "id" : "17eebf479c7d4a29a19e65328fb85b2d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:30.760"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och Europa har kommit närmare Skåne"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och Sverige."
+      } ]
+    } ]
+  }, {
+    "id" : "e06cd81254dd4a71958e4d620822442a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:34.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är enorma möjligheter för jobb,"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "tillväxt och konkurrenskraft"
+      } ]
+    } ]
+  }, {
+    "id" : "05922196486549c7be01d0fd4a4a934a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:37.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och för att riva hinder"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "mellan människor."
+      } ]
+    } ]
+  }, {
+    "id" : "d881b5df4f29444e9fdf4a3fdae68821",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:40.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "På dagen 25 år efter Öresundsbrons"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "invigning möttes återigen"
+      } ]
+    } ]
+  }, {
+    "id" : "ba0028a0961e439b8e6c25dc87a6d84b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:45.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Sverige och Danmarks kungapar"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "för att fira brons 25-årsdag."
+      } ]
+    } ]
+  }, {
+    "id" : "2a68d2636d3f4848a4e14d075cabe27d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:50.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Kungligheterna fick avtäcka"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "jubileumsgåvor i form av kikare"
+      } ]
+    } ]
+  }, {
+    "id" : "5884686b4aeb452191c1eef408f2c731",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:55.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "både på den svenska och danska sidan"
+      } ]
+    } ]
+  }, {
+    "id" : "186e9910226941f1a9f08fa5b2d97fe4",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:21:58.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "så att besökare från och med"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "nu kan studera 25-åringen närmare."
+      } ]
+    } ]
+  }, {
+    "id" : "e6eb15bc8dab4ef9ba68b0fb9516c1f2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:02.520"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "För att markera jubileet antog"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "svenska och danska statsministern"
+      } ]
+    } ]
+  }, {
+    "id" : "f29bc33305f3411e904ee03c9031befd",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:07.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "en deklaration för att öka samarbetet"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "i Öresundsregionen ytterligare."
+      } ]
+    } ]
+  }, {
+    "id" : "f9755899b45d4c89beb029ad76a6c35e",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:12.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det handlar om samarbeten"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "inom försvaret"
+      } ]
+    } ]
+  }, {
+    "id" : "3850d02c4e594bcbb10fc520ae3aa269",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:15.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "bekämpning av"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "organiserad brottslighet"
+      } ]
+    } ]
+  }, {
+    "id" : "6734de7fd85b4622a2b6e88fe4216bbe",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:18.440"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och att underlätta för"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "den gemensamma arbetsmarknaden"
+      } ]
+    } ]
+  }, {
+    "id" : "367d7e70e4b14d00b0fe27447d8779e3",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:21.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och de över 20 000 personer"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som idag arbetspendlar över sundet."
+      } ]
+    } ]
+  }, {
+    "id" : "925711b205ad41c68d72ce73ed545422",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:26.040"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Vi har rivit många hinder"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "under de här 25 åren."
+      } ]
+    } ]
+  }, {
+    "id" : "45db785f85364e23abb3af0d64ffd376",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:28.680"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Ambitionen är att vi ska fortsätta"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att riva hinder"
+      } ]
+    } ]
+  }, {
+    "id" : "f768203d221e498d965f783bb463c0be",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:32.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och göra resan över sundet sömlöst."
+      } ]
+    } ]
+  }, {
+    "id" : "4ed987df44764e2cbba6629d3944f4dc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:35.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Då handlar det ju bland annat om att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "se till att Öresund verkligen blir"
+      } ]
+    } ]
+  }, {
+    "id" : "3139dff4e1ea4e96a3a3eb5804dcbe7a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:39.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "en riktig arbetsmarknadsregion. Att"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vi blir bättre på digitala verktyg"
+      } ]
+    } ]
+  }, {
+    "id" : "690d6dec0a5d405187a493e6c72535fc",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:45.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och tjänster över gränser. Och peka"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ut behov av ny transportinfrastruktur"
+      } ]
+    } ]
+  }, {
+    "id" : "d8421f24ed724c4183cdb3d842928bd8",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:51.160"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "och säkerställa ytterligare"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "bra förbindelser bortom 2050."
+      } ]
+    } ]
+  }, {
+    "id" : "14ad47301a824732b93860df9036814f",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:22:55.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Deklarationen välkomnas av samarbets–"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "organisationen Greater Copenhagen"
+      } ]
+    } ]
+  }, {
+    "id" : "71f34c0861c64ab0b3e98b300d0ce926",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:01.000",
+      "out" : "00:23:05.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "som idag ser flera utmaningar för den"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som söker jobb på andra sidan sundet."
+      } ]
+    } ]
+  }, {
+    "id" : "25e89ca4e099483db51919f4a4b40690",
+    "kind" : "S(da>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:05.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det är viktigt att man vill skapa"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "en ännu mer integrerad arbetsmarknad–"
+      } ]
+    } ]
+  }, {
+    "id" : "88d00a76c040419d9c48b6c710adafdd",
+    "kind" : "S(da>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:13.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "–där det blir mycket lättare att bo"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "på ena sidan och jobba på den andra."
+      } ]
+    } ]
+  }, {
+    "id" : "2ef5b260cf0d499885cbf86c5f84e700",
+    "kind" : "S(da>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:17.640"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Så det är en sak"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som vi kommer att säga till regeringen:"
+      } ]
+    } ]
+  }, {
+    "id" : "21c18bce62f14a989ece0bbad9e9689c",
+    "kind" : "S(da>sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:21.880",
+      "out" : "00:23:27.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "\"Det är bra att viljan finns."
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Nu vill vi också se konkreta åtgärder.\""
+      } ]
+    } ]
+  }, {
+    "id" : "5e748da4e402485fbc70f90460c773c2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:27.200",
+      "out" : "00:23:30.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det har handlat mycket om den"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "intensiva hettan i Europa. Nils blir"
+      } ]
+    } ]
+  }, {
+    "id" : "82341b95dbf94ca2bf7adb0138bd8a19",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:31.160",
+      "out" : "00:23:32.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "det fortsatt blodröda kartor?"
+      } ]
+    } ]
+  }, {
+    "id" : "e5855aa66c4f4c0aa8be8f458f708a62",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:33.000",
+      "out" : "00:23:37.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Det kommer vara fortsatt väldigt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "varmt vid Medelhavet, kanske inte"
+      } ]
+    } ]
+  }, {
+    "id" : "857de5e3b3454625b594fb0e27fb8845",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:37.280",
+      "out" : "00:23:43.400"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "helt oväntat, men redan i övermorgon"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "så får bland annat ja Tyskland, men"
+      } ]
+    } ]
+  }, {
+    "id" : "5acbd3e2202f4315a1363ea762830ec2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:43.600",
+      "out" : "00:23:49.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "också Frankrike lindring samtidigt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "som det blir kallare hemma hos oss."
+      } ]
+    } ]
+  }, {
+    "id" : "0d8d89740c6d4ed5b3eb40f97fa03ecb",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:49.400",
+      "out" : "00:23:53.320"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "En snabb utblick i Europa så ser vi"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "att det är varmt cirka 35 grader på"
+      } ]
+    } ]
+  }, {
+    "id" : "4eb5d8866d504a34853c1973d2df89ea",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:53.520",
+      "out" : "00:23:59.120"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "många platser för det mesta soligt"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "bra lokala skurar, åskoväder och den"
+      } ]
+    } ]
+  }, {
+    "id" : "770c35c9640d46dbadabcf352e10f306",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:23:59.320",
+      "out" : "00:24:02.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "här värmen går i en kil och mot oss"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "och det blir som varmast."
+      } ]
+    } ]
+  }, {
+    "id" : "f8025a84e0674fd2a32b94d2f1cddd44",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:03.080",
+      "out" : "00:24:06.880"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Kommer under onsdagen imorgon som ni"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ser, så pressat det här längre"
+      } ]
+    } ]
+  }, {
+    "id" : "65791c73c440454085d361acbfc6bc0b",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:07.080",
+      "out" : "00:24:09.080"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "österut. Eventuellt att det blir lite"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "varmare i slutet av veckan i den"
+      } ]
+    } ]
+  }, {
+    "id" : "118f5109537d49ac9e1c80f54c70e391",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:09.280",
+      "out" : "00:24:12.280"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "östra delen av Medelhavet. Men andra"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ser det ser ganska likt för övrigt då"
+      } ]
+    } ]
+  }, {
+    "id" : "43eff7fac20348dd9079a55228ab5722",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:12.480",
+      "out" : "00:24:18.600"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "att det blir sval över central Europa"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "Imorgon bitti varmt redan från start"
+      } ]
+    } ]
+  }, {
+    "id" : "fe76a4cec3ff47e0a0194bb544a8af6a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:18.800",
+      "out" : "00:24:22.200"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "cirka 20 grader i Sydsverige på"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "gränsen till kalla luft. Så har vi"
+      } ]
+    } ]
+  }, {
+    "id" : "9b95431cc6604db6aebcc23faa7e1db2",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:22.400",
+      "out" : "00:24:25.840"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "också ett regnoväder som tunnas ut"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "fram på dagen. Samtidigt stiger"
+      } ]
+    } ]
+  }, {
+    "id" : "0962832f3edd4fd5b2af7c37c759572a",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:26.040",
+      "out" : "00:24:29.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "temperaturen i Sydsverige kan bli"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "uppåt 30 grader på flera platser"
+      } ]
+    } ]
+  }, {
+    "id" : "683d3536b15f477d8893a7a8b67d0b3d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:30.160",
+      "out" : "00:24:32.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "lokalt kanske 35 också en fläktande"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "vind också."
+      } ]
+    } ]
+  }, {
+    "id" : "01d74bca56414a3ea1689e48fb9273a9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:33.160",
+      "out" : "00:24:35.960"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "Och sen kommer molnen heter"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "temperatur framförallt om norra"
+      } ]
+    } ]
+  }, {
+    "id" : "f68028c7d86c44fab9aaa572337bc8be",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:36.160",
+      "out" : "00:24:39.480"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "delarna här normer om den är här från"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "inte zonen ser inte lika varmt. Den"
+      } ]
+    } ]
+  }, {
+    "id" : "d6593503c83341f3bf76b1adfc0b23bf",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:39.680",
+      "out" : "00:24:44.000"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "är 15 20 grader i allmänhet och"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "ganska så svaga. Vindarsolen kan kika"
+      } ]
+    } ]
+  }, {
+    "id" : "ffcf8ace039943ba8fa7ac2e5ea884e9",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:44.200",
+      "out" : "00:24:48.800"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "fram med mellanåt Olivia. Tack för"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "det Nils och så fick det bli ikväll"
+      } ]
+    } ]
+  }, {
+    "id" : "1f8c1236d4df485b9b04b268af583d0d",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:49.000",
+      "out" : "00:24:51.720"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "stanna kvar för att se de lokala"
+      } ]
+    }, {
+      "text" : [ {
+        "text" : "nyheterna. Vi önskar en trevlig kväll"
+      } ]
+    } ]
+  }, {
+    "id" : "164f03b40a534bce93856de29eddd3ec",
+    "kind" : "C(sv)",
+    "timing" : {
+      "type" : "seq",
+      "in" : "00:24:51.920",
+      "out" : "00:24:54.240"
+    },
+    "rows" : [ {
+      "text" : [ {
+        "text" : "hejdå."
+      } ]
+    } ]
+  } ]
+}
