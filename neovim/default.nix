@@ -15,7 +15,10 @@
           loops = ["bold"];
           functions = ["bold"];
           properties = ["italic"];
-          booleans = ["bold" "italic"];
+          booleans = [
+            "bold"
+            "italic"
+          ];
           operators = ["bold"];
         };
         integrations = {
@@ -188,11 +191,27 @@
         enable = true;
         settings.server = {
           default_settings = {
-            inlayHints = {lifetimeElisionHints = {enable = "always";};};
+            inlayHints = {
+              lifetimeElisionHints = {
+                enable = "always";
+              };
+            };
             rust-analyzer = {
-              cargo = {allFeatures = true;};
-              check = {command = "clippy";};
-              files = {excludeDirs = ["target" ".git" ".cargo" ".github" ".direnv"];};
+              cargo = {
+                allFeatures = true;
+              };
+              check = {
+                command = "clippy";
+              };
+              files = {
+                excludeDirs = [
+                  "target"
+                  ".git"
+                  ".cargo"
+                  ".github"
+                  ".direnv"
+                ];
+              };
             };
           };
         };
@@ -213,7 +232,10 @@
         enable = true;
         settings = {
           sections = {
-            lualine_x = ["lsp_progress" "encoding"];
+            lualine_x = [
+              "lsp_progress"
+              "encoding"
+            ];
           };
         };
       };
@@ -232,7 +254,9 @@
         enable = true;
 
         settings = {
-          experimental = {ghost_text = false;};
+          experimental = {
+            ghost_text = false;
+          };
           snippet.expand = ''
             function(args)
               require('luasnip').lsp_expand(args.body)
@@ -252,7 +276,11 @@
           ];
 
           formatting = {
-            fields = ["abbr" "kind" "menu"];
+            fields = [
+              "abbr"
+              "kind"
+              "menu"
+            ];
             format =
               # lua
               ''
@@ -312,11 +340,29 @@
               winhighlight = "FloatBorder:CmpBorder,Normal:CmpPmenu,CursorLine:CmpSel,Search:PmenuSel";
               scrollbar = false;
               sidePadding = 0;
-              border = ["╭" "─" "╮" "│" "╯" "─" "╰" "│"];
+              border = [
+                "╭"
+                "─"
+                "╮"
+                "│"
+                "╯"
+                "─"
+                "╰"
+                "│"
+              ];
             };
 
             settings.documentation = {
-              border = ["╭" "─" "╮" "│" "╯" "─" "╰" "│"];
+              border = [
+                "╭"
+                "─"
+                "╮"
+                "│"
+                "╯"
+                "─"
+                "╰"
+                "│"
+              ];
               winhighlight = "FloatBorder:CmpBorder,Normal:CmpPmenu,CursorLine:CmpSel,Search:PmenuSel";
             };
           };
@@ -480,7 +526,9 @@
       #   recommendedKeymaps = true;
       # };
 
-      lsp-format = {enable = true;};
+      lsp-format = {
+        enable = true;
+      };
       lsp = {
         enable = true;
         keymaps = {
@@ -595,20 +643,23 @@
 
       nvim-tree = {
         enable = true;
-        git.enable = true;
-        disableNetrw = true;
-        respectBufCwd = true;
-        reloadOnBufenter = true;
-        syncRootWithCwd = true;
-        updateFocusedFile.enable = true;
+        settings = {
+          # enable = true;
+          git.enable = true;
+          # disableNetrw = true;
+          # respectBufCwd = true;
+          # reloadOnBufenter = true;
+          # syncRootWithCwd = true;
+          # updateFocusedFile.enable = true;
 
-        diagnostics = {
-          enable = true;
-          icons = {
-            hint = "";
-            info = "";
-            warning = "";
-            error = "";
+          diagnostics = {
+            enable = true;
+            icons = {
+              hint = "";
+              info = "";
+              warning = "";
+              error = "";
+            };
           };
         };
       };

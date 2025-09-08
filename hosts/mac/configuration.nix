@@ -11,7 +11,7 @@
       "bitwarden"
       "obsidian"
       "vmware-fusion"
-      "docker"
+      "docker-desktop"
       "cursor"
       "hammerspoon"
       "raycast"
@@ -32,7 +32,7 @@
   # environment.pathsToLink = ["/Applications"];
   environment.systemPackages = [
     pkgs.vim
-    pkgs.darwin.apple_sdk.frameworks.Security
+    # pkgs.darwin.apple_sdk.frameworks.Security
     pkgs.openconnect
     pkgs.fish
     pkgs.cachix

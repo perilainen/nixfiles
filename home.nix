@@ -11,7 +11,8 @@
 in {
   # nixpkgs.config.allowBroken = true;
   imports = [
-    inputs.nixvim.homeManagerModules.nixvim
+    inputs.nixvim.homeModules.nixvim
+    # inputs.nixvim.homeManagerModules.nixvim
     # ./packages.nix
     ./shared.nix
     ./shared_programs/default.nix
@@ -62,6 +63,7 @@ in {
         git-lfs
         gnused
         go
+        glab
         hstr
         mage
         grpcurl
@@ -92,7 +94,8 @@ in {
         SDL
         sshs
         starship
-        thefuck
+        pay-respects
+        # thefuck
         # tig
         tmux
         translate-shell
