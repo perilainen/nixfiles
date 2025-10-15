@@ -11,7 +11,7 @@
       "bitwarden"
       "obsidian"
       "vmware-fusion"
-      "docker-desktop"
+      # "docker"
       "cursor"
       "hammerspoon"
       "raycast"
@@ -37,9 +37,16 @@
     pkgs.fish
     pkgs.cachix
     pkgs.sketchybar
+    pkgs.docker
+    pkgs.docker-compose
+    pkgs.colima
+    pkgs.pass
+    pkgs.insomnia
+    # pkgs.ensurePassStore
     # pkgs.raycast
     # pkgs.aerospace
   ];
+  # services.colima.enable = true;
   services.yabai.enable = false;
   # services.yabai.config = {
   #   top_padding = 36;
@@ -237,7 +244,10 @@
     #   };
     # };
   };
-  environment.shells = [pkgs.zsh pkgs.fish];
+  environment.shells = [
+    pkgs.zsh
+    pkgs.fish
+  ];
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina

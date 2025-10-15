@@ -53,6 +53,7 @@ in {
         # autojump
         ctags
         cyrus_sasl
+        dbeaver-bin
         ddgr
         devenv
         discord
@@ -81,7 +82,7 @@ in {
         #nerd-fonts.fira-code
         # neovim
         nil
-        nodejs
+        # nodejs
         nmap
         pipenv
         podman
@@ -250,7 +251,7 @@ in {
   programs.lazygit = {
     enable = true;
     settings = {
-      open = "lvim";
+      open = "nvim";
     };
   };
   programs.tmate = {

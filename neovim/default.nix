@@ -190,6 +190,26 @@
       rustaceanvim = {
         enable = true;
         settings.server = {
+          on_attach = ''
+            function(client, bufnr)
+              if client.server_capabilities.documentFormattingProvider then
+                -- Create or reuse a global augroup
+                local lsp_format_group = vim.api.nvim_create_augroup("LspFormat", { clear = false })
+
+                -- Clear existing autocmds for this buffer
+                vim.api.nvim_clear_autocmds({ group = lsp_format_group, buffer = bufnr })
+
+                -- Add format-on-save
+                vim.api.nvim_create_autocmd("BufWritePre", {
+                  group = lsp_format_group,
+                  buffer = bufnr,
+                  callback = function()
+                    vim.lsp.buf.format({ async = false })
+                  end,
+                })
+              end
+            end
+          '';
           default_settings = {
             inlayHints = {
               lifetimeElisionHints = {
@@ -646,6 +666,8 @@
         settings = {
           # enable = true;
           git.enable = true;
+          update_focused_file.enable = true;
+          update_focused_file.update_root = true;
           # disableNetrw = true;
           # respectBufCwd = true;
           # reloadOnBufenter = true;
