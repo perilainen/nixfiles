@@ -4,11 +4,13 @@
   lib,
   pkgs,
   ...
-}: let
+}:
+let
   isDarwin = pkgs.stdenv.isDarwin;
   isLinux = pkgs.stdenv.isLinux;
   system = pkgs.stdenv.system;
-in {
+in
+{
   # nixpkgs.config.allowBroken = true;
   imports = [
     inputs.nixvim.homeModules.nixvim
@@ -32,15 +34,16 @@ in {
   };
   home = {
     file =
-      {}
+      { }
       // (
-        if isDarwin
-        then {
-          # "/Users/perjohansson/.aerospace.toml".source = ./config/aerospace/aerospace.toml;
-          # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
-          # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
-        }
-        else {}
+        if isDarwin then
+          {
+            # "/Users/perjohansson/.aerospace.toml".source = ./config/aerospace/aerospace.toml;
+            # ".config/lvim/config.lua".source = ./config/lvim/config.lua;
+            # "/Users/perjohansson/Library/Application Support/k9s/hotkey.yml".source = ./config/k9s/hotkey.yml;
+          }
+        else
+          { }
       );
 
     # Home Manager needs a bit of information about you and the
@@ -48,7 +51,8 @@ in {
     # username = "perjohansson";
     # homeDirectory = "/Users/perjohansson2";
 
-    packages = with pkgs;
+    packages =
+      with pkgs;
       [
         # autojump
         ctags
@@ -73,6 +77,7 @@ in {
         # k9s
         kubectl
         kubeseal
+        lazyssh
         llvm
         lua
         lua53Packages.luarocks
@@ -165,36 +170,46 @@ in {
   #   }
   #   else {};
   gtk =
-    if isLinux
-    then {
-      enable = true;
-      iconTheme = {
-        package = pkgs.adwaita-icon-theme;
-        name = "Adwaita";
-      };
+    if isLinux then
+      {
+        enable = true;
+        iconTheme = {
+          package = pkgs.adwaita-icon-theme;
+          name = "Adwaita";
+        };
 
-      font = {
-        name = "Sans";
-        size = 11;
-      };
-    }
-    else {};
+        font = {
+          name = "Sans";
+          size = 11;
+        };
+      }
+    else
+      { };
   fonts =
-    if isLinux
-    then {
-      fontconfig.enable = true;
-    }
-    else {};
+    if isLinux then
+      {
+        fontconfig.enable = true;
+      }
+    else
+      { };
   programs.kodi =
-    if isLinux
-    then {
-      enable = true;
-    }
-    else {};
+    if isLinux then
+      {
+        enable = true;
+      }
+    else
+      { };
   programs.fastfetch.enable = true;
   programs.navi.enable = true;
   programs.autojump = {
     enable = true;
+  };
+  programs.intelli-shell = {
+    enable = true;
+    enableFishIntegration = true;
+    shellHotkeys = {
+      search_hotkey = "\\\\C-t"; # Alt (ESC) + Enter (\r)
+    };
   };
   programs.foot = {
     enable = isLinux;
@@ -368,7 +383,11 @@ in {
       {
         layer = "top";
         position = "top";
-        modules-center = ["clock" "custom/suspend" "custom/logout"];
+        modules-center = [
+          "clock"
+          "custom/suspend"
+          "custom/logout"
+        ];
         modules-left = [
           "hyprland/workspaces"
           "hyplrland/mode"

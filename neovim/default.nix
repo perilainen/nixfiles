@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   programs.nixvim = {
     enable = true;
     # extraConfigLua = builtins.readFile ./init.lua;
@@ -10,16 +11,16 @@
         flavour = "mocha";
         term_colors = true;
         styles = {
-          keywords = ["italic"];
-          conditionals = ["bold"];
-          loops = ["bold"];
-          functions = ["bold"];
-          properties = ["italic"];
+          keywords = [ "italic" ];
+          conditionals = [ "bold" ];
+          loops = [ "bold" ];
+          functions = [ "bold" ];
+          properties = [ "italic" ];
           booleans = [
             "bold"
             "italic"
           ];
-          operators = ["bold"];
+          operators = [ "bold" ];
         };
         integrations = {
           # barbar = true;
@@ -245,7 +246,7 @@
 
       navbuddy = {
         enable = true;
-        lsp.autoAttach = true;
+        settings.lsp.autoAttach = true;
       };
       luasnip.enable = true;
       lualine = {
@@ -283,15 +284,15 @@
             end
           '';
           sources = [
-            {name = "nvim_lsp";}
-            {name = "luasnip";}
+            { name = "nvim_lsp"; }
+            { name = "luasnip"; }
             {
               name = "buffer";
               option.get_bufnrs.__raw = "vim.api.nvim_list_bufs";
             }
-            {name = "nvim_lua";}
-            {name = "path";}
-            {name = "copilot";}
+            { name = "nvim_lua"; }
+            { name = "path"; }
+            { name = "copilot"; }
             # {name = "codeium-vim";}
           ];
 
@@ -627,12 +628,12 @@
                 enforce = true;
                 group = "item";
               };
-              files.excludeDirs = [".direnv"];
+              files.excludeDirs = [ ".direnv" ];
             };
 
             extraOptions.settings = {
               cargo.allFeatures = true;
-              files.excludeDirs = [".direnv"];
+              files.excludeDirs = [ ".direnv" ];
               unstable_features = true;
               #   tab_spaces = 2;
               #   reorder_impl_items = true;
