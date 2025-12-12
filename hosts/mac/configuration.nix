@@ -1,7 +1,8 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   homebrew = {
     enable = true;
-    brews = ["mas"];
+    brews = [ "mas" ];
     taps = [
       "nikitabobko/tap"
     ];
@@ -55,16 +56,16 @@
   services.aerospace = {
     enable = true;
     settings = {
-      after-login-command = [];
-      after-startup-command = [];
+      after-login-command = [ ];
+      after-startup-command = [ ];
       # start-at-login = true;
       enable-normalization-flatten-containers = true;
       enable-normalization-opposite-orientation-for-nested-containers = true;
       accordion-padding = 30;
       default-root-container-layout = "tiles";
       default-root-container-orientation = "auto";
-      on-focused-monitor-changed = ["move-mouse monitor-lazy-center"];
-      on-focus-changed = ["move-mouse window-lazy-center"];
+      on-focused-monitor-changed = [ "move-mouse monitor-lazy-center" ];
+      on-focus-changed = [ "move-mouse window-lazy-center" ];
       automatically-unhide-macos-hidden-apps = false;
 
       key-mapping = {

@@ -285,13 +285,8 @@ in
   programs.git = {
     lfs.enable = true;
     enable = true;
-    userName = "Per Johansson";
-    userEmail = "per.a.johansson@svt.se";
-    aliases = {
-      ap = "add --patch";
-    };
     signing.format = "openpgp";
-    extraConfig = {
+    settings = {
       url."git@git.svt.se:".insteadOf = "https://git.svt.se/";
       url."git@github.com:".insteadOf = "https://github.com/";
       init = {
@@ -305,7 +300,11 @@ in
       merge.tool = "nvim";
       mergetool.keepBackup = false;
       mergetool.prompt = false;
-      mergetool.lvim.cmd = "nvim -d $LOCAL $BASE $REMOTE $MERGED -c 'wincmd w' -c 'wincmd J'";
+      user.name = "Per Johansson";
+      user.email = "per.a.johansson@svt.se";
+      alias = {
+        ap = "add --patch";
+      };
     };
   };
   # programs.helix = {
