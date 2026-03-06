@@ -336,7 +336,8 @@ in
       linuxdev = "docker run -itv $(pwd):/home/dev/workspace --rm -w /home/dev/workspace arch-dev bash";
       vpnnps = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/NPStest";
       vpnsvt = "sudo openconnect --user=pejo03 --useragent=AnyConnect  --gnutls-priority=NORMAL:-VERS-TLS1.3 asavpn.svt.se/svtvpn";
-      vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/novavpn";
+      vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-TLS1.3 asavpn.svt.se/novavpn";
+      # vpnnova = "sudo openconnect --user=pejo03 --useragent=AnyConnect --gnutls-priority=NORMAL:-VERS-ALL:+VERS-TLS1.2:+RSA:+AES-128-CBC:+SHA1 asavpn.svt.se/novavpn";
       sysup = "sudo darwin-rebuild switch --flake ~/nixfiles/.";
       lvim = "nvim -u ~/.config/nvim/lazyviminit.lua";
     };

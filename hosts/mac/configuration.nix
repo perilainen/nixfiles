@@ -22,9 +22,9 @@
     ];
     # masApps = {Flycut = 442160987;};
     onActivation = {
-      # autoUpdate = true;
+      autoUpdate = true;
       cleanup = "uninstall";
-      # upgrade = true;
+      upgrade = true;
       # Set the default shell to zsh.
     };
   };
