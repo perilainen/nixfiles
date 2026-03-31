@@ -515,8 +515,9 @@
       todo-comments.enable = true;
 
       obsidian = {
-        enable = false;
+        enable = true;
         settings = {
+         legacy_commands  = false;
           workspaces = [
             {
               name = "personal";
@@ -611,6 +612,7 @@
           clangd.enable = true;
           gopls.enable = true;
           html.enable = true;
+          htmx.enable = true;
           yamlls.enable = true;
           ruff.enable = true;
           kotlin_language_server.enable = true;
