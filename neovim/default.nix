@@ -185,7 +185,7 @@
     plugins = {
       crates.enable = true;
       project-nvim.enableTelescope = true;
-      vim-be-good.enable = true;
+      # vim-be-good.enable = true;
       project-nvim.enable = true;
       # rustaceanvim.enable = true;
       rustaceanvim = {
@@ -517,7 +517,7 @@
       obsidian = {
         enable = true;
         settings = {
-         legacy_commands  = false;
+          legacy_commands = false;
           workspaces = [
             {
               name = "personal";
@@ -530,16 +530,16 @@
           ];
         };
       };
-      barbar = {
-        enable = true;
-        # autoHide = true;
-        # icons.diagnostics = {
-        #   error.enable = true;
-        #   hint.enable = true;
-        #   info.enable = true;
-        #   warn.enable = true;
-        # };
-      };
+      # barbar = {
+      #   enable = true;
+      #   # autoHide = true;
+      #   # icons.diagnostics = {
+      #   #   error.enable = true;
+      #   #   hint.enable = true;
+      #   #   info.enable = true;
+      #   #   warn.enable = true;
+      #   # };
+      # };
 
       # coq-nvim = {
       #   enable = true;

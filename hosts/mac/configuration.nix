@@ -2,9 +2,20 @@
 {
   homebrew = {
     enable = true;
-    brews = [ "mas" ];
+    brews = [
+      "mas"
+      "libgcrypt"
+      "glib"
+      "pixman"
+      "sdl2"
+      "libslirp"
+      "dfu-util"
+      "cmake"
+      "python"
+    ];
     taps = [
       "nikitabobko/tap"
+      "espressif/eim"
     ];
     casks = [
       "brave-browser"
@@ -13,10 +24,12 @@
       "obsidian"
       "vmware-fusion"
       # "docker"
-      "cursor"
+      # "cursor"
       "hammerspoon"
       "raycast"
       "arc"
+      "visual-studio-code"
+      "eim-gui"
       # "stretchly"
       # "aerospace"
     ];
@@ -43,6 +56,9 @@
     pkgs.colima
     pkgs.pass
     pkgs.insomnia
+    pkgs.claude-code
+    # pkgs.codex
+
     # pkgs.ensurePassStore
     # pkgs.raycast
     # pkgs.aerospace

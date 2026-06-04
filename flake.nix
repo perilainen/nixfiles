@@ -14,84 +14,87 @@
     home-manager-stable.inputs.nixpkgs.follows = "nixpkgs-stable";
     mac-app-util.url = "github:hraban/mac-app-util";
     nixvim.url = "github:nix-community/nixvim";
+    nixvim.inputs.nixpkgs.follows = "nixpkgs";
     hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
     # linux-builder.url = "path:/Users/perjohansson/nixfiles/darwinflake/linuxbuilder";
   };
 
-  outputs = inputs @ {
-    self,
-    nix-darwin,
-    nixpkgs,
-    nixpkgs-stable,
-    home-manager,
-    home-manager-stable,
-    mac-app-util,
-    ...
-  }: {
-    # Build darwin flake using:
-    # $ darwin-rebuild build --flake .#simple
-    darwinConfigurations."Pers-MacBook-Pro-2" = nix-darwin.lib.darwinSystem {
-      system = "aarch64-darwin";
-      modules = [
-        ./hosts/mac/configuration.nix
-        # configuration
-        inputs.home-manager.darwinModules.home-manager
-        # linux-builder.darwinConfigurations.machine1
-        {
-          # nixpkgs = nixpkgsConfig;
-          home-manager.sharedModules = [
-            mac-app-util.homeManagerModules.default
+  outputs =
+    inputs@{
+      self,
+      nix-darwin,
+      nixpkgs,
+      nixpkgs-stable,
+      home-manager,
+      home-manager-stable,
+      mac-app-util,
+      ...
+    }:
+    {
+      # Build darwin flake using:
+      # $ darwin-rebuild build --flake .#simple
+      darwinConfigurations."Pers-MacBook-Pro-2" = nix-darwin.lib.darwinSystem {
+        system = "aarch64-darwin";
+        modules = [
+          ./hosts/mac/configuration.nix
+          # configuration
+          inputs.home-manager.darwinModules.home-manager
+          # linux-builder.darwinConfigurations.machine1
+          {
+            # nixpkgs = nixpkgsConfig;
+            home-manager.sharedModules = [
+              mac-app-util.homeManagerModules.default
+            ];
+
+            home-manager.useGlobalPkgs = true;
+            home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = { inherit inputs; };
+            home-manager.users.perjohansson = import ./home.nix;
+          }
+        ];
+      };
+      nixosConfigurations = {
+        nixos = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          specialArgs = { inherit inputs; };
+          modules = [
+            ./hosts/nixos-x86/configuration.nix
+            home-manager.nixosModules.home-manager
+            {
+              home-manager.backupFileExtension = ".bak";
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.extraSpecialArgs = { inherit inputs; };
+              home-manager.users.perj = import ./home.nix;
+
+              # Optionally, use home-manager.extraSpecialArgs to pass
+              # arguments to home.nix
+            }
           ];
-
-          home-manager.useGlobalPkgs = true;
-          home-manager.useUserPackages = true;
-          home-manager.extraSpecialArgs = {inherit inputs;};
-          home-manager.users.perjohansson = import ./home.nix;
-        }
-      ];
-    };
-    nixosConfigurations = {
-      nixos = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        specialArgs = {inherit inputs;};
-        modules = [
-          ./hosts/nixos-x86/configuration.nix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.backupFileExtension = ".bak";
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = {inherit inputs;};
-            home-manager.users.perj = import ./home.nix;
-
-            # Optionally, use home-manager.extraSpecialArgs to pass
-            # arguments to home.nix
-          }
-        ];
+        };
       };
-    };
-    nixosConfigurations = {
-      nixos-vm = nixpkgs-stable.lib.nixosSystem {
-        system = "aarch64-linux";
-        specialArgs = {inherit inputs;};
-        modules = [
-          ./hosts/nixos-vm/configuration.nix
-          home-manager-stable.nixosModules.home-manager
-          {
-            home-manager.backupFileExtension = ".bak";
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = {inherit inputs;};
-            home-manager.users.perj = import ./home.nix;
+      nixosConfigurations = {
+        nixos-vm = nixpkgs-stable.lib.nixosSystem {
+          system = "aarch64-linux";
+          specialArgs = { inherit inputs; };
+          modules = [
+            ./hosts/nixos-vm/configuration.nix
+            home-manager-stable.nixosModules.home-manager
+            {
+              home-manager.backupFileExtension = ".bak";
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.extraSpecialArgs = { inherit inputs; };
+              home-manager.users.perj = import ./home.nix;
 
-            # Optionally, use home-manager.extraSpecialArgs to pass
-            # arguments to home.nix
-          }
-        ];
+              # Optionally, use home-manager.extraSpecialArgs to pass
+              # arguments to home.nix
+            }
+          ];
+        };
       };
-    };
 
-    # Expose the package set, including overlays, for convenience.
-    darwinPackages = self.darwinConfigurations."simple".pkgs;
-  };
+      # Expose the package set, including overlays, for convenience.
+      darwinPackages = self.darwinConfigurations."simple".pkgs;
+    };
 }

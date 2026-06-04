@@ -112,7 +112,7 @@ in
         yarn
         yazi
         zellij
-        nodePackages.typescript-language-server
+        # nodePackages.typescript-language-server
         yaml-language-server
         marksman
       ]
@@ -204,13 +204,13 @@ in
   programs.autojump = {
     enable = true;
   };
-  programs.intelli-shell = {
-    enable = true;
-    enableFishIntegration = true;
-    shellHotkeys = {
-      search_hotkey = "\\\\C-t"; # Alt (ESC) + Enter (\r)
-    };
-  };
+  # programs.intelli-shell = {
+  #   enable = true;
+  #   enableFishIntegration = true;
+  #   shellHotkeys = {
+  #     search_hotkey = "\\\\C-t"; # Alt (ESC) + Enter (\r)
+  #   };
+  # };
   programs.foot = {
     enable = isLinux;
     settings = {
@@ -415,7 +415,7 @@ in
           on-scroll-down = "hyprctl dispatch workspace e-1";
         };
         "clock" = {
-          format = '' {:L%H:%M}  '';
+          format = " {:L%H:%M}  ";
           tooltip = true;
           tooltip-format = "<big>{:%A, %d.%B %Y }</big>\n<tt><small>{calendar}</small></tt>";
         };
